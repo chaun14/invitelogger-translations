@@ -1,0 +1,9 @@
+{
+  "BOT_MISSING_PERMISSIONS": ":x: __**Permission manquantes**__\n\nJ'ai besoin des permissions suivantes afin d'exécuter cette commande : {{permissions}}.",
+  "UNKNOWCMD": ":x: __**Commande introuvable**__ \n\nTapez `{{prefix}}help` pour la liste des commandes.",
+  "WRONGSYNTAX": ":x: __**Mauvaise syntaxe**__ \n\nLa syntaxe de la commande est `{{prefix}}{{syntax}}`\nExemple: `{{prefix}}{{example}}`",
+  "SENDER": " • Demandé par {{user}}",
+  "ASKPREFIX": "Quelqu'un m'a mentionné ?\nMon préfixe sur ce serveur est `{{prefix}}`",
+  "USER_MISSING_PERMISSIONS": ":x: Désolé, vous n'avez pas la permission d'exécuter cette commande.\n\nPermission(s) manquante(s) : {{permList}}",
+  "UNKNOWUSER": ":x: __**Membre non trouvé**__\n\nJe ne trouve pas l'utilisateur demandé. Syntaxe: `{{prefix}}{{syntax}}`"
+}

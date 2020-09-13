@@ -1,0 +1,16 @@
+{
+  "PING": "The bot's ping is {{botPing}}ms, discord's api ping is {{apiPing}}ms",
+  "PINGDESC": "Shows bot's ping",
+  "HELPGENERAL1": "Welcome to {{botName}}'s help.\nMy prefix on this server is `{{prefix}}`.\nFor more informations about a command, type `{{prefix}}help <command>`",
+  "HELPSPECIFIC1": "Help about the command `{{cmd}}`",
+  "HELPSPECIFIC_DESC": "Command's description :",
+  "HELPSPECIFIC_CATEGORY": "Command's category :",
+  "HELPSPECIFIC_ALIASES": "Command's aliases ({{count}}) :",
+  "HELPSPECIFIC_SYNTAX": "Command's syntax :",
+  "HELPDESC": "List all bot's commands",
+  "BOTINFOS_DESCRIPTION": "The bot has `{{members}}` members spread across `{{guilds}}` guilds.\n\n**__System informations__**\nRam: `{{usedRam}}MB` / `{{totalRam}}MB`\nProcessor: {{proc}} (used at `{{procUsage}}%`)",
+  "BOTINFOS_CMDDESC": "Show informations about the bot",
+  "BOTINFOS_SHARDINFOS": "Servers: `{{guildSize}}`\nRam: `{{ramUsed}}MB`\nPing: `{{ping}}ms`",
+  "HELPLINKS_LINKS": "Add me ! [[here]]({{inviteLink}})\nMy dashboard ! [[here]]({{dashboardLink}})",
+  "HELPLINKS_TITLE": "Links"
+}

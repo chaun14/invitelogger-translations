@@ -1,0 +1,9 @@
+{
+  "SETPREFIX_SAME": ":x: The new prefix (`{{newPrefix}}`) cannot be the same as the old one.",
+  "SETPREFIX_SUCCESS": "✅ The new prefix ( `{{newPrefix}}` ) has been successfully set in {{time}}ms.",
+  "SETLANG_SAME": ":x: The new language ( `{{lang}}` ) cannot be the same as the current one.",
+  "SETLANG_SUCCESS": "✅ The new language ( `{{lang}}` ) has been successfully set in {{time}}ms.",
+  "SETLANG_DESC": "Change the bot's language",
+  "SETLANG_UNKNOW": ":x: __**Unknow language**__\n\nPlease use an available language: {{langList}}",
+  "SETPREFIX_DESC": "Change the bot's prefix"
+}
