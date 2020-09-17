@@ -1,0 +1,9 @@
+{
+  "BOT_MISSING_PERMISSIONS": ":x: __**Yetersiz Yetki!**__\n\nBu komutu çalıştırmak için aşağıdaki izinlere ihtiyacım var : {{permissions}}.",
+  "UNKNOWCMD": ":x: __**Komut Bulunamadı**__ \n\nYardım için: `{{prefix}}help` yardım komutlarına erişirsiniz.",
+  "WRONGSYNTAX": ":x: __**Yanlış sözdizimi**__ \n\nDoğru sözdizimi `{{prefix}}{{syntax}}`\Örnek: `{{prefix}}{{example}}`",
+  "SENDER": " • Sordu: {{user}}",
+  "ASKPREFIX": "Biri beni etiketledi mi?\nBenim bu sunucuda prefixim `{{prefix}}`",
+  "USER_MISSING_PERMISSIONS": ":x: Üzgünüz, bu komutu çalıştırma izniniz yok.\n\nGerekli izinler : {{permList}}",
+  "UNKNOWUSER": ":x: __**Kullanıcı bulunamadı**__\n\nBu kullanıcıyı bulamıyorum. Sözdizimi: `{{prefix}}{{syntax}}`"
+}
