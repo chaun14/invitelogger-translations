@@ -1,2 +1,2 @@
 # invitelogger-translations
-Help us to translate the new invitelogger
+Ayúdanos a traducir el nuevo registrador de invitaciones
