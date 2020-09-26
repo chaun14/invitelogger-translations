@@ -1,0 +1,16 @@
+{
+  "PING": "Botun pingi: {{botPing}}ms, discord apinin pingi: {{apiPing}}ms",
+  "PINGDESC": "Botun pingini gösterir",
+  "HELPGENERAL1": "Hoşgeldiniz {{botName}}'s yardım.\nBenim bu sunucda prefixim:`{{prefix}}`.\nBir komut hakkında daha fazla bilgi için yazın `{{prefix}}help <command>`",
+  "HELPSPECIFIC1": "Komut hakkında yardım `{{cmd}}`",
+  "HELPSPECIFIC_DESC": "Komut açıklaması :",
+  "HELPSPECIFIC_CATEGORY": "Komut kategorisi :",
+  "HELPSPECIFIC_ALIASES": "Komutun ikizleri ({{count}}) :",
+  "HELPSPECIFIC_SYNTAX": "Komutun sözdizimi :",
+  "HELPDESC": "Tüm bot komutlarını listeleyin",
+  "BOTINFOS_DESCRIPTION": "Bot `{{members}}` kullanıcıya `{{guilds}}` sunucuya.\n\n**__Sistem bilgileri__**\nRam: `{{usedRam}}MB` / `{{totalRam}}MB`\nİşlemci: {{proc}} (used at `{{procUsage}}%`)",
+  "BOTINFOS_CMDDESC": "Botla ilgili bilgileri göster",
+  "BOTINFOS_SHARDINFOS": "Serverler: `{{guildSize}}`\nRam: `{{ramUsed}}MB`\nPing: `{{ping}}ms`",
+  "HELPLINKS_LINKS": "Beni Ekle ! [[here]]({{inviteLink}})\nBenim Panelim ! [[here]]({{dashboardLink}})",
+  "HELPLINKS_TITLE": "Linkler"
+}
