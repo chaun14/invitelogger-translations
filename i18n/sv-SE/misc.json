@@ -1,0 +1,9 @@
+{
+  "BOT_MISSING_PERMISSIONS": ":x: __**Saknar behörigheter**__\n\nJag behöver följande behörigheter för att använda detta kommando : {{permissions}}.",
+  "UNKNOWCMD": ":x: __**Okänt kommando**__ \n\nSkriv `{{prefix}}help`för kommand listan.",
+  "WRONGSYNTAX": ":x: __**Fel syntax**__ \n\nDet rätta syntaxet är `{{prefix}}{{syntax}}`\nExempel: `{{prefix}}{{example}}`",
+  "SENDER": " • frågad av {{user}}",
+  "ASKPREFIX": "Taggade någin mig?\nMitt prefix i den här servern är `{{prefix}}`",
+  "USER_MISSING_PERMISSIONS": ":x: Förlåt, du har inte tillåtelse att använda det kommandot.\n\nNädvändinga behörighet(er) : {{permList}}",
+  "UNKNOWUSER": ":x: __**Användare hittades inte**__\n\nJag kan inte hitta denna användaren. Syntax: `{{prefix}}{{syntax}}`"
+}
