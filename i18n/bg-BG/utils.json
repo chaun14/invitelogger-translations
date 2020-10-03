@@ -1,0 +1,16 @@
+{
+  "PING": "Пингът на бота е {{botPing}}ms, API Ping на Discord е {{apiPing}}ms",
+  "PINGDESC": "Показва пинга на бота",
+  "HELPGENERAL1": "Добре дошли в списъка с помощ на {{botName}}.\nМоята представка в този сървър е `{{prefix}}`.\nЗа повече информация за команда, напишете `{{prefix}}help <команда>`",
+  "HELPSPECIFIC1": "Помощ за командата `{{cmd}}`",
+  "HELPSPECIFIC_DESC": "Описание на команда:",
+  "HELPSPECIFIC_CATEGORY": "Категория на командата:",
+  "HELPSPECIFIC_ALIASES": "Псевдоними на командата ({{count}}) :",
+  "HELPSPECIFIC_SYNTAX": "Синтаксис на команда:",
+  "HELPDESC": "Списък на всички команди на бота",
+  "BOTINFOS_DESCRIPTION": "Ботът има `{{members}}` членове, разпределени в `{{guilds}}` сървъра.\n\n**__System informations__**\nRAM: `{{usedRam}}MB` / `{{totalRam}}MB`\nПроцесор: {{proc}} (използват се `{{procUsage}}%`)",
+  "BOTINFOS_CMDDESC": "Показване на информация за бота",
+  "BOTINFOS_SHARDINFOS": "Сървъри: `{{guildSize}}`\nRAM: `{{ramUsed}}MB`\nPing: `{{ping}}ms`",
+  "HELPLINKS_LINKS": "Добави ме! [[Кликни тук]]({{inviteLink}})\nМоят Dashboard! [[Кликни тук]]({{dashboardLink}})",
+  "HELPLINKS_TITLE": "Връзки"
+}
