@@ -1,0 +1,16 @@
+{
+  "PING": "Der Bot braucht {{botPing}}ms bis er antwortet, die Discord API braucht {{apiPing}}ms zum antworten",
+  "PINGDESC": "Zeigt wie lange der Bot braucht bis er antwortet",
+  "HELPGENERAL1": "Willkommen zu {{botName}}'s Hilfscenter.\nMein Prefix auf diesem Server ist `{{prefix}}`.\nFür mehr Informationen über einen Befehl, schreibe `{{prefix}}help <Befehl>`",
+  "HELPSPECIFIC1": "Hilfe für den Befehl `{{cmd}}`",
+  "HELPSPECIFIC_DESC": "Beschreibung des Befehls:",
+  "HELPSPECIFIC_CATEGORY": "Kategorie des Befehls:",
+  "HELPSPECIFIC_ALIASES": "Alternative Befehle ({{count}}) :",
+  "HELPSPECIFIC_SYNTAX": "Satzstellung des Befehls:",
+  "HELPDESC": "Listet alle Befehl des bots auf",
+  "BOTINFOS_DESCRIPTION": "Dieser bot hat `{{members}}` Nutzer, die über `{{guilds}}` Servern aufgeteilt sind.\n\n**__System Informationen__**\nRam: `{{usedRam}}MB` / `{{totalRam}}MB`\nProzessor: {{proc}} (used at `{{procUsage}}%`)",
+  "BOTINFOS_CMDDESC": "Zeigt Informationen über den bot",
+  "BOTINFOS_SHARDINFOS": "Server: `{{guildSize}}`\nRam: `{{ramUsed}}MB`\nPing: `{{ping}}ms`",
+  "HELPLINKS_LINKS": "Lad mich ein ! [[here]]({{inviteLink}})\nMeine Übersichtsseite ! [[here]]({{dashboardLink}})",
+  "HELPLINKS_TITLE": "Links"
+}

@@ -1,0 +1,9 @@
+{
+  "SETPREFIX_SAME": ":x: Der neue Prefix (`{{newPrefix}}`) kann nicht der selbe wie der vorherige sein.",
+  "SETPREFIX_SUCCESS": "✅ Der neue Prefix ( `{{newPrefix}}` ) wurde erfolgreich in {{time}} millisekunden gesetzt.",
+  "SETLANG_SAME": ":x: Die neue Sprache ( `{{lang}}` ) kann nicht die selbe wie die aktuelle sein.",
+  "SETLANG_SUCCESS": "✅ Die neue Sprache ( `{{lang}}` ) wurde erfolgreich in {{time}} millisekunden gesetzt.",
+  "SETLANG_DESC": "Ändere die Sprache des bots",
+  "SETLANG_UNKNOW": ":x: __**unbekannte Sprache**__\n\nBitte benutze eine verfügbare Sprache: {{langList}}",
+  "SETPREFIX_DESC": "Ändere den Prefix des Bots"
+}
