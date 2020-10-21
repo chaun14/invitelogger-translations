@@ -49,6 +49,10 @@
   "ADDRANK_OVER": ":x: **__Nombre invalide__**\n\nLe nombre d'invitation à atteindre doit être comrpis entre 1 et 100 000 000.",
   "ADDRANK_OK": "✅ Le rôle <@&{{role_id}}> sera donné lorsque un utilisateur atteindra `{{inviteNumber}}` invitations.",
   "RANKS_LIST": "🏅 Liste des rangs obtenable avec vos invitations sur ce serveur.\n\n{{ranksMessage}}\n",
-  "RANKS_EMPTY": "Il n'y a pas de rangs obtenables avec vos invitations sur ce serveur. \nVous être administrateur du serveur? Ajoutez en avec la commande `!addRank`",
-  "RANKS_DESC": "Donne la liste des rangs obtenables par nombre d'invitations."
+  "RANKS_EMPTY": "Il n'y a pas de rangs obtenables avec vos invitations sur ce serveur. \nVous être administrateur du serveur? Ajoutez en avec la commande `addRank`",
+  "RANKS_DESC": "Donne la liste des rangs obtenables par nombre d'invitations.",
+  "REMOVERANK_UNKNOWNRANK": "No ranks giving the given role exists. Run the command `{{prefix}}ranks` to see the rank list.",
+  "REMOVERANK_OK": "✅ The  <@&{{role_id}}> rank has been successfully deleted in `{{time}}` ms.",
+  "REMOVERANK_DESC": "Remove a rank created with addRank command.",
+  "RANKS_NODESC": "No description given for this rank."
 }

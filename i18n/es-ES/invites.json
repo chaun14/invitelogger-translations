@@ -49,6 +49,10 @@
   "ADDRANK_OVER": ":x: **__Número invalido__**\n\nEl número de invitaciones para unirse debe ingresarse entre 1 y 100 000 000.",
   "ADDRANK_OK": "✅ El papel <@&{{role_id}}> se dará cuando un usuario alcance `{{inviteNumber}}` invitaciones.",
   "RANKS_LIST": "🏅 Lista de clasificaciones que se pueden obtener con sus invitaciones en este servidor.\n\n{{ranksMessage}}\n",
-  "RANKS_EMPTY": "No se puede obtener clasificaciones con sus invitaciones en este servidor. \n¿Eres administrador del servidor? Agregar con orden `!addRank`",
-  "RANKS_DESC": "Enumere los rangos que se pueden obtener por número de invitaciones."
+  "RANKS_EMPTY": "No se puede obtener clasificaciones con sus invitaciones en este servidor. \n¿Eres administrador del servidor? Agregar con orden `addRank`",
+  "RANKS_DESC": "Enumere los rangos que se pueden obtener por número de invitaciones.",
+  "REMOVERANK_UNKNOWNRANK": "No ranks giving the given role exists. Run the command `{{prefix}}ranks` to see the rank list.",
+  "REMOVERANK_OK": "✅ The  <@&{{role_id}}> rank has been successfully deleted in `{{time}}` ms.",
+  "REMOVERANK_DESC": "Remove a rank created with addRank command.",
+  "RANKS_NODESC": "No description given for this rank."
 }

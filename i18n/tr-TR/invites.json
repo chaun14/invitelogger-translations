@@ -49,6 +49,10 @@
   "ADDRANK_OVER": ":x: **__Geçersiz Numara__**\n\nUlaşılacak davetiye sayısı 1 ile 100.000.000 arasında olmalıdır.",
   "ADDRANK_OK": "✅ Rol <@&{{role_id}}> bir kullanıcı ulaştığında verilecektir `{{inviteNumber}}` davetiyeler.",
   "RANKS_LIST": "🏅 Bu sunucudaki davetiyelerinizle elde edilebilecek rütbelerin listesi.\n\n{{ranksMessage}}\n",
-  "RANKS_EMPTY": "Bu sunucuda davetlerinizle elde edilebilecek hiçbir derece yok. \nSunucu yöneticisi misiniz? Komutla ekleyin `!addRank`",
-  "RANKS_DESC": "Davet sayısına göre elde edilebilen rütbeleri listeleyin."
+  "RANKS_EMPTY": "Bu sunucuda davetlerinizle elde edilebilecek hiçbir derece yok. \nSunucu yöneticisi misiniz? Komutla ekleyin `addRank`",
+  "RANKS_DESC": "Davet sayısına göre elde edilebilen rütbeleri listeleyin.",
+  "REMOVERANK_UNKNOWNRANK": "No ranks giving the given role exists. Run the command `{{prefix}}ranks` to see the rank list.",
+  "REMOVERANK_OK": "✅ The  <@&{{role_id}}> rank has been successfully deleted in `{{time}}` ms.",
+  "REMOVERANK_DESC": "Remove a rank created with addRank command.",
+  "RANKS_NODESC": "No description given for this rank."
 }

@@ -49,6 +49,10 @@
   "ADDRANK_OVER": ":x: **_Invalid Numbere__**\n\nThe number of invites to reach must be contained between 1 and 100 000 000.",
   "ADDRANK_OK": "✅ The  <@&{{role_id}}> role will be given when a user reaches `{{inviteNumber}}` invites.",
   "RANKS_LIST": "🏅 List of the obtenable ranks with your invitations on this server.\n\n{{ranksMessage}}\n",
-  "RANKS_EMPTY": "There is no obtenable rank with your invites on this server. \nYou are administrater of the server? Add more administraters with the command `!addRank`",
-  "RANKS_DESC": "Gives the list of ranks that are obtenable with invites number."
+  "RANKS_EMPTY": "There is no obtenable rank with your invites on this server. \nYou are administator of the server? Create an invite rank with the `addRank` command",
+  "RANKS_DESC": "Gives the list of ranks that are obtenable with invites number.",
+  "REMOVERANK_UNKNOWNRANK": "No ranks giving the given role exists. Run the command `{{prefix}}ranks` to see the rank list.",
+  "REMOVERANK_OK": "✅ The  <@&{{role_id}}> rank has been successfully deleted in `{{time}}` ms.",
+  "REMOVERANK_DESC": "Remove a rank created with addRank command.",
+  "RANKS_NODESC": "No description given for this rank."
 }

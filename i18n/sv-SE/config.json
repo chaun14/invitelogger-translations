@@ -1,0 +1,9 @@
+{
+  "SETPREFIX_SAME": ":x: Det nya prefixet  (`{{newPrefix}}`) kan inte vara likadant som det nuvarande prefixet.",
+  "SETPREFIX_SUCCESS": "✅ Det nya prefixet ( `{{newPrefix}}` ) har ställts in i {{time}}ms.",
+  "SETLANG_SAME": ":x: De nya språket ( `{{lang}}` ) kan inte vara likadant som det nuvarande språket.",
+  "SETLANG_SUCCESS": "✅ Det nya språket ( `{{lang}}` ) har ställts in i {{time}}ms.",
+  "SETLANG_DESC": "Ändra denna bot's språk",
+  "SETLANG_UNKNOW": ":x: __**Okänt språk**__\n\nVänligen använd ett tillgängligt språk: {{langList}}",
+  "SETPREFIX_DESC": "Ändra denna bot's prefix"
+}
