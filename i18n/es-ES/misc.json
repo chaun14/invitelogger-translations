@@ -5,5 +5,8 @@
   "SENDER": " • preguntar por {{user}}",
   "ASKPREFIX": "¿Alguien me mencionó?\nMi prefijo en este servidor es `{{prefix}}`",
   "USER_MISSING_PERMISSIONS": ":x: Lo sentimos, no está autorizado a ejecutar este comando.\n\nPermiso (s) desaparecido (s) : {{permList}}",
-  "UNKNOWUSER": ":x: __**Miembro no encontrado**__\n\nNo encuentro al usuario solicitado. Sintaxis: `{{prefix}}{{syntax}}`"
+  "UNKNOWUSER": ":x: __**Miembro no encontrado**__\n\nNo encuentro al usuario solicitado. Sintaxis: `{{prefix}}{{syntax}}`",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Lo sentimos, no está autorizado a ejecutar este comando.\n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Lo sentimos, no está autorizado a ejecutar este comando.\n\nYou are forbidden to run that command.",
+  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before doing this command again."
 }

@@ -5,5 +5,8 @@
   "SENDER": " • Попитан от {{user}}",
   "ASKPREFIX": "Някой спомена ли ме?\nМоята представка в този сървър е `{{prefix}}` ",
   "USER_MISSING_PERMISSIONS": ":x: Съжалявам, нямате разрешенията за изпълнение на тази команда. \n\nНеобходими разрешения : {{permList}}",
-  "UNKNOWUSER": ":x: __**Потребителят не е намерен**__ \n\nНе мога да намеря този потребител. Синтаксис: `{{prefix}}{{syntax}}`"
+  "UNKNOWUSER": ":x: __**Потребителят не е намерен**__ \n\nНе мога да намеря този потребител. Синтаксис: `{{prefix}}{{syntax}}`",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Съжалявам, нямате разрешенията за изпълнение на тази команда. \n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Съжалявам, нямате разрешенията за изпълнение на тази команда. \n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
+  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before doing this command again."
 }

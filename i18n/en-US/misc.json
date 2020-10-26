@@ -5,5 +5,8 @@
   "SENDER": " • Asked by {{user}}",
   "ASKPREFIX": "Someone tagged me ?\nMy prefix on this server is `{{prefix}}`",
   "USER_MISSING_PERMISSIONS": ":x: Sorry, you do not have the permissions to run that command.\n\nRequired permission(s) : {{permList}}",
-  "UNKNOWUSER": ":x: __**User not found**__\n\nI can't find this user. Syntax: `{{prefix}}{{syntax}}`"
+  "UNKNOWUSER": ":x: __**User not found**__\n\nI can't find this user. Syntax: `{{prefix}}{{syntax}}`",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Sorry, you do not have the permissions to run that command.\n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Sorry, you do not have the permissions to run that command.\n\nYou are forbidden to run that command.",
+  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before doing this command again."
 }
