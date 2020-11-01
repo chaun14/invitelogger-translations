@@ -54,5 +54,9 @@
   "REMOVERANK_UNKNOWNRANK": "No ranks giving the given role exists. Run the command `{{prefix}}ranks` to see the rank list.",
   "REMOVERANK_OK": "✅ The  <@&{{role_id}}> rank has been successfully deleted in `{{time}}` ms.",
   "REMOVERANK_DESC": "Възстановете историята на изтритите покани на сървъра или на член.",
-  "RANKS_NODESC": "No description given for this rank."
+  "RANKS_NODESC": "No description given for this rank.",
+  "REFRESHRANKS_DISABLED": "❌ Sorry the rank system isn't enabled on your server. Visit the bot dashboard to enable it.",
+  "REFRESHRANKS_OK": "✅ The role refresh has been successfully done with `{{addedCount}}` roles added and `{{removedCount}}` roles removed.",
+  "REFRESHRANKS_PROCESSING": "☄ The role refreshing has started. Please wait until the operation is finished. It may take some time.",
+  "REFRESHRANKS_DESC": "Refresh member(s) invites ranks"
 }

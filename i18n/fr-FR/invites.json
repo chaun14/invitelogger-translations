@@ -51,8 +51,12 @@
   "RANKS_LIST": "🏅 Liste des rangs obtenable avec vos invitations sur ce serveur.\n\n{{ranksMessage}}\n",
   "RANKS_EMPTY": "Il n'y a pas de rangs obtenables avec vos invitations sur ce serveur. \nVous être administrateur du serveur? Ajoutez en avec la commande `addRank`",
   "RANKS_DESC": "Donne la liste des rangs obtenables par nombre d'invitations.",
-  "REMOVERANK_UNKNOWNRANK": "Il n'existe pas de rang qui donne le rôle donné. Utilisez la commande `{{prefix}}ranks` pour voir la liste de rang.",
-  "REMOVERANK_OK": "✅Le rang  <@&{{role_id}}> a été supprimé avec succès en `{{time}}` ms.",
-  "REMOVERANK_DESC": "Retiter un rang créé avec la commande addrank",
-  "RANKS_NODESC": "No description given for this rank."
+  "REMOVERANK_UNKNOWNRANK": "No ranks giving the given role exists. Run the command `{{prefix}}ranks` to see the rank list.",
+  "REMOVERANK_OK": "✅ The  <@&{{role_id}}> rank has been successfully deleted in `{{time}}` ms.",
+  "REMOVERANK_DESC": "Remove a rank created with addRank command.",
+  "RANKS_NODESC": "No description given for this rank.",
+  "REFRESHRANKS_DISABLED": "❌ Sorry the rank system isn't enabled on your server. Visit the bot dashboard to enable it.",
+  "REFRESHRANKS_OK": "✅ The role refresh has been successfully done with `{{addedCount}}` roles added and `{{removedCount}}` roles removed.",
+  "REFRESHRANKS_PROCESSING": "☄ The role refreshing has started. Please wait until the operation is finished. It may take some time.",
+  "REFRESHRANKS_DESC": "Refresh member(s) invites ranks"
 }
