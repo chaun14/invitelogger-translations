@@ -44,15 +44,16 @@
   "REMOVEINVITES_DESC": "Retirar las invitaciones de bonificación de un miembro.",
   "REMOVEINVITES_OK": "✅ Teneis retirado**{{invitesCount}}** invitaciones de bonificación a <@{{user}}> en {{time}}ms.",
   "REMOVEINVITES_OVER": ":x: **__Número invalido__**\n\nEl número de invitaciones para agregar debe estar entre -1 y -100 000 000.",
-  "ADDRANK_NOROLEPERM": ":x: Error\n\nNo puedo interactuar en el rol especificado. Verifique que este es un rol creado manualmente, que tengo el permiso \"Administrar roles\" y que mi rol es mayor que el rol que se asignará.",
+  "ADDRANK_NOROLEPERM": ":x: Error\n\nNo puedo interactuar en el rol esEliminar un rango creado con el comando addRankpecificado. Verifique que este es un rol creado manualmente, que tengo el permiso \"Administrar roles\" y que mi rol es mayor que el rol que se asignará.",
   "ADDRANK_RANKEXIST": ":x: Error\n\nEste rol ya se otorga cuando un miembro alcanza `{{amount}}` invitaciones.\nElija otro rol o elimine el rango existente con el comando `{{prefix}}removeRank`.",
   "ADDRANK_OVER": ":x: **__Número invalido__**\n\nEl número de invitaciones para unirse debe ingresarse entre 1 y 100 000 000.",
   "ADDRANK_OK": "✅ El papel <@&{{role_id}}> se dará cuando un usuario alcance `{{inviteNumber}}` invitaciones.",
   "RANKS_LIST": "🏅 Lista de clasificaciones que se pueden obtener con sus invitaciones en este servidor.\n\n{{ranksMessage}}\n",
   "RANKS_EMPTY": "No se puede obtener clasificaciones con sus invitaciones en este servidor. \n¿Eres administrador del servidor? Agregar con orden `addRank`",
   "RANKS_DESC": "Enumere los rangos que se pueden obtener por número de invitaciones.",
-  "REMOVERANK_UNKNOWNRANK": "No ranks giving the given role exists. Run the command `{{prefix}}ranks` to see the rank list.",
-  "REMOVERANK_OK": "✅ The  <@&{{role_id}}> rank has been successfully deleted in `{{time}}` ms.",
-  "REMOVERANK_DESC": "Remove a rank created with addRank command.",
-  "RANKS_NODESC": "No description given for this rank."
+  "REMOVERANK_UNKNOWNRANK": "No hay rangos dando el papel dado existe. Ejecute el comando `{{prefix}}rank` para ver la lista de rangos.",
+  "REMOVERANK_OK": "✅ El rango <@&{{role_id}> se ha eliminado con éxito en `{{time}}` ms.",
+  "REMOVERANK_DESC": "Eliminar un rango creado con el comando addRank.",
+  "RANKS_NODESC": "No hay descripción dada para este rango.
+  ."
 }
