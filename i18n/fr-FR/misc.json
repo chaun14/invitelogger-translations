@@ -8,5 +8,5 @@
   "UNKNOWUSER": ":x: __**Membre non trouvé**__\n\nJe ne trouve pas l'utilisateur demandé. Syntaxe: `{{prefix}}{{syntax}}`",
   "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Désolé, vous n'avez pas la permission d'exécuter cette commande.\n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
   "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Désolé, vous n'avez pas la permission d'exécuter cette commande.\n\nYou are forbidden to run that command.",
-  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before doing this command again."
+  "COOLDOWNED": "⏳ Désolé vous devez attendre `{{remainingTime}}` seconde(s) avant de refaire cette commande."
 }

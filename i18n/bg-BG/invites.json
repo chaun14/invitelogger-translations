@@ -1,5 +1,5 @@
 {
-  "LEADERBOARD_TOP": "Класацията на **{{guild}}** генерирана за {{time}}ms.\n\n✅ Истински покани\n♾ Всички покани\n✨ Бонус покани (команда `{{prefix}}addinvites`)\n💩 Фалшиви покани (напуснал, след това се присъединява пак)\n❌Напуснали",
+  "LEADERBOARD_TOP": "Класацията на **{{guild}}** генерирана за {{time}}ms.\n\n✅ Истински покани\n♾ Всички покани\n✨ Бонус покани (команда `{{prefix}}addinvites`)\n💩 Фалшиви покани (account too young)\n❌Напуснали",
   "JOINMESSAGE_HIMSELF": "**{memberName}** се покани сам. ",
   "JOINMESSAGE_UNKNOW": "Не мога да кажа кой покани **{memberName}**. Може би са използвали временна покана.",
   "JOINMESSAGE_NORMAL": "**{memberMention}** тъкмо се присъедини. Те бяха поканени от **{inviterName}**, който вече има **{inviteCount} покани** !",
@@ -58,5 +58,11 @@
   "REFRESHRANKS_DISABLED": "❌ Sorry the rank system isn't enabled on your server. Visit the bot dashboard to enable it.",
   "REFRESHRANKS_OK": "✅ The role refresh has been successfully done with `{{addedCount}}` roles added and `{{removedCount}}` roles removed.",
   "REFRESHRANKS_PROCESSING": "☄ The role refreshing has started. Please wait until the operation is finished. It may take some time.",
-  "REFRESHRANKS_DESC": "Refresh member(s) invites ranks"
+  "REFRESHRANKS_DESC": "Refresh member(s) invites ranks",
+  "ADDRANK_DESC": "Configure a role given when a member has reached a certain amount of invites.",
+  "IMPORTINVITES_NOFILE": ":x: __**No file given**__\n\nYou need to provide a .csv file exported from `invitelogger classic` or other invitemanager-based bot. To get this file, enable the premium on your server with `!trypremium` --> `yes` or `!premium activate` and then run the `!export leaderboard` command. This will give you a csv file. \nDownload it on your device and upload it attached to the `{{prefix}}importInvites` command.\nOld invites count should be added as bonus. \n\n⚠ This command is experimental and can malfunction.",
+  "IMPORTINVITES_WRONGFILE": ":x: __**Wrong file given**__\n\nPlease attach a valid `.csv` file exported from an invitemanager based bot.",
+  "IMPORTINVITES_OK": "✅ Import finished with bonuses invites added for `{{count}}` member(s) in `{{time}}` ms.",
+  "IMPORTINVITES_PENDING": "⏳ Please wait while processing the import.",
+  "IMPORTINVITES_DESC": "Import invites as bonus from invitemanager-based bots."
 }

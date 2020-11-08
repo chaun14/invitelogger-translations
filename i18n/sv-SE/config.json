@@ -20,5 +20,8 @@
   "SETPERMS_ALREADYEXISTS_USER": "❌ The command permission override for the user <@!{{user_id}}> on the `{{command}}` command is already set to `{{value}}`.",
   "SETPERMS_OK_USER": "✅ The command permission override for the user <@!{{user_id}}> on the `{{command}}` command has been set to `{{value}}`.",
   "SETPERMS_DESC": "Allow or block some roles/users to access bot commands.",
-  "SETPERMS_FORBIDDENCMD": "❌ Sorry you can't override permissions of this command for security reason."
+  "SETPERMS_FORBIDDENCMD": "❌ Sorry you can't override permissions of this command for security reason.",
+  "SETFAKETHRESHOLD_OVER": "❌ __**Wrong minimum account age given**__\n\nThe amount of days since an account creation must be included between 1 and 1000.",
+  "SETFAKETHRESHOLD_OK": "✅ The minimum account age threshold has been successfully set to `{{count}}` days in `{{time}}`ms.",
+  "SETFAKETHRESHOLD_DESC": "Set the minimum day count since the account creation of the joining member. If they is under the given count the join will be counted as fake."
 }
