@@ -21,7 +21,7 @@
   "SETPERMS_OK_USER": "✅ La anulación del permiso de comando para el usuario <@!{{user_id}}> sobre el comando `{{command}}` ya esta configurado en `{{value}}`.",
   "SETPERMS_DESC": "Permitir o bloquear algunos roles / usuarios para acceder a los comandos del bot.",
   "SETPERMS_FORBIDDENCMD": "❌ Lo sentimos, no puede anular los permisos de este comando por razones de seguridad.",
-  "SETFAKETHRESHOLD_OVER": "❌ __**Wrong minimum account age given**__\n\nThe amount of days since an account creation must be included between 1 and 1000.",
-  "SETFAKETHRESHOLD_OK": "✅ The minimum account age threshold has been successfully set to `{{count}}` days in `{{time}}`ms.",
-  "SETFAKETHRESHOLD_DESC": "Set the minimum day count since the account creation of the joining member. If they is under the given count the join will be counted as fake."
+  "SETFAKETHRESHOLD_OVER": "❌ __**Edad mínima incorrecta de la cuenta ** __\n\nLa cantidad de días desde la creación de una cuenta debe incluirse entre 1 y 1000.",
+  "SETFAKETHRESHOLD_OK": "✅ El umbral de antigüedad mínima de la cuenta se ha establecido correctamente en `{{count}}` días en `{{time}}`ms.",
+  "SETFAKETHRESHOLD_DESC": "Establezca el recuento mínimo de días desde la creación de la cuenta del miembro que se une. Si están por debajo del recuento dado, la unión se contará como falsa."
 }
