@@ -7,6 +7,6 @@
   "USER_MISSING_PERMISSIONS": ":x: Förlåt, du har inte tillåtelse att använda det kommandot.\n\nNädvändinga behörighet(er) : {{permList}}",
   "UNKNOWUSER": ":x: __**Användare hittades inte**__\n\nJag kan inte hitta denna användaren. Syntax: `{{prefix}}{{syntax}}`",
   "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Förlåt, du har inte tillåtelse att använda det kommandot.\n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
-  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Förlåt, du har inte tillåtelse att använda det kommandot.\n\nYou are forbidden to run that command.",
-  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before doing this command again."
+  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Förlåt, du har inte tillåtelse att använda det kommandot.\n\nYou are not allowed to run that command.",
+  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before running this command again."
 }

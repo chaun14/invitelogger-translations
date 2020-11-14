@@ -7,6 +7,6 @@
   "USER_MISSING_PERMISSIONS": ":x: Ups! Tut mir Leid aber du hast nicht genug Berechtigungen\n\nBenötigte Berechtigung(en) : {{permList}}",
   "UNKNOWUSER": ":x: __**Nutzer nicht gefunden**__\n\nIch kann diesen Nutzer nicht finden. Syntax: `{{prefix}}{{syntax}}`",
   "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Ups! Tut mir Leid aber du hast nicht genug Berechtigungen\n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
-  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Ups! Tut mir Leid aber du hast nicht genug Berechtigungen\n\nYou are forbidden to run that command.",
-  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before doing this command again."
+  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Ups! Tut mir Leid aber du hast nicht genug Berechtigungen\n\nYou are not allowed to run that command.",
+  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before running this command again."
 }

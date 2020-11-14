@@ -7,6 +7,6 @@
   "USER_MISSING_PERMISSIONS": ":x: Üzgünüz, bu komutu çalıştırma izniniz yok.\n\nGerekli izinler : {{permList}}",
   "UNKNOWUSER": ":x: __**Kullanıcı bulunamadı**__\n\nBu kullanıcıyı bulamıyorum. Sözdizimi: `{{prefix}}{{syntax}}`",
   "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Üzgünüz, bu komutu çalıştırma izniniz yok.\n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
-  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Üzgünüz, bu komutu çalıştırma izniniz yok.\n\nYou are forbidden to run that command.",
-  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before doing this command again."
+  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Üzgünüz, bu komutu çalıştırma izniniz yok.\n\nYou are not allowed to run that command.",
+  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before running this command again."
 }
