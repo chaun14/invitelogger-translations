@@ -11,6 +11,10 @@
   "BOTINFOS_DESCRIPTION": "El bot tiene `{{members}}` distribuido en `{{guilds}}` servidores.\n\n**__Información del sistema__**\nRAM: `{{usedRam}}MO` / `{{totalRam}}MO`\nProcesador: {{proc}} (utilizar a `{{procUsage}}%`)\n\n",
   "BOTINFOS_CMDDESC": "Muestra información sobre el bot.",
   "BOTINFOS_SHARDINFOS": "Servidores: `{{guildSize}}`\nRAM: `{{ramUsed}}MO`\nLatencia: `{{ping}}ms`",
-  "HELPLINKS_LINKS": "Agregame ! [[aquí]]({{inviteLink}})\nMi tablero ! [[aquí]]({{dashboardLink}})",
-  "HELPLINKS_TITLE": "Enlace"
+  "HELPLINKS_LINKS": "Agregame ! [[aquí]]({{inviteLink}})\nMi tablero ! [[aquí]]({{dashboardLink}})\nSupport server [[join us]](https://discord.gg/vyQvDKVg7d)\nSupport us ! [[thanks]](https://paypal.me/chaun14)",
+  "HELPLINKS_TITLE": "Enlace",
+  "credits": {
+    "MAIN": "**__Invitelogger__**\n\n*Invitelogger is a bot owned by `chaun14#1403` (<@!417977361011572747>) which allow you to track user invites*\n\n**Developpers :**\n[chaun14#1403](https://github.com/chaun14) -> `Bot` & `Yggdrasil ` & `Dashboard back-end`\n[Spokloo#7791](https://github.com/spokloo) -> `Dashboard front-end`\n\n**Inspired from :**\n[ManageInvite](https://github.com/ManageInvite/ManageInvite) -> `i18n system`\n[InviteManager](https://github.com/SideProjectGuys/invite-manager-bot) -> `invite tracking`, `database structure`\n[Sworder/Dashboard.io](https://github.com/ZerioDev/Dashboard.io) -> `Dashboard auth system`\n\n**Thanks to :**\nAll donators 🌟\nAll [translators](https://github.com/chaun14/invitelogger-translations/graphs/contributors)\nAll [staffs](https://discord.gg/vyQvDKVg7d)\n`OcelusPRO#0001`(<@!240139319992516611>)\n`Gauthier#0875` (<@!332119827311230976>)",
+    "DESC": "Show bot credits"
+  }
 }
