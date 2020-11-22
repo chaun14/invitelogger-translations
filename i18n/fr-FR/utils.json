@@ -16,5 +16,9 @@
   "credits": {
     "MAIN": "**__Invitelogger__**\n\n*Invitelogger is a bot owned by `chaun14#1403` (<@!417977361011572747>) which allow you to track user invites*\n\n**Developpers :**\n[chaun14#1403](https://github.com/chaun14) -> `Bot` & `Yggdrasil ` & `Dashboard back-end`\n[Spokloo#7791](https://github.com/spokloo) -> `Dashboard front-end`\n\n**Inspired from :**\n[ManageInvite](https://github.com/ManageInvite/ManageInvite) -> `i18n system`\n[InviteManager](https://github.com/SideProjectGuys/invite-manager-bot) -> `invite tracking`, `database structure`\n[Sworder/Dashboard.io](https://github.com/ZerioDev/Dashboard.io) -> `Dashboard auth system`\n\n**Thanks to :**\nAll donators 🌟\nAll [translators](https://github.com/chaun14/invitelogger-translations/graphs/contributors)\nAll [staffs](https://discord.gg/vyQvDKVg7d)\n`OcelusPRO#0001`(<@!240139319992516611>)\n`Gauthier#0875` (<@!332119827311230976>)",
     "DESC": "Affiche les crédits du bot"
+  },
+  "getbot": {
+    "MAIN": "__**Inviter Invitelogger**__\n\nAjoutez <@!{{ bot }}> à votre serveur [ici](https://discord.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://invitelogger.me/dashboard/guilds&permissions=268462304&client_id={{ bot }})\nFacilement configurable sur mon [dashboard](https://invitelogger.me/dashboard/guilds)\n\nServeur de support [[nous rejoindre]](https://discord.gg/vyQvDKVg7d)\nNous soutenir ! [[Merci]](https://paypal.me/chaun14)",
+    "DESC": "Pour avoir le lien d'invitation du bot"
   }
 }
