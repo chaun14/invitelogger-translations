@@ -1,0 +1,12 @@
+{
+  "BOT_MISSING_PERMISSIONS": ":x: __**Missing permissions**__\n\nI need the following permissions to run this command : {{permissions}}.",
+  "UNKNOWCMD": ":x: __**Unknown command**__ \n\nType `{{prefix}}help` for the commands list.",
+  "WRONGSYNTAX": ":x: __**Wrong syntax**__ \n\nThe correct syntax is `{{prefix}}{{syntax}}`\nExample: `{{prefix}}{{example}}`",
+  "SENDER": " • Asked by {{user}}",
+  "ASKPREFIX": "Someone tagged me ?\nMy prefix on this server is `{{prefix}}`",
+  "USER_MISSING_PERMISSIONS": ":x: Sorry, you do not have the permissions to run that command.\n\nRequired permission(s) : {{permList}}",
+  "UNKNOWUSER": ":x: __**User not found**__\n\nI can't find this user. Syntax: `{{prefix}}{{syntax}}`",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Sorry, you do not have the permissions to run that command.\n\nYour highest role <@&{{role_id}}> isn't allowed to run that command.",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Sorry, you do not have the permissions to run that command.\n\nYou are not allowed to run that command.",
+  "COOLDOWNED": "⏳ You need to wait `{{remainingTime}}` second(s) before running this command again."
+}

@@ -28,7 +28,7 @@
   "SETCHANNEL_DESC": "Definir sala para mensajes de llegada y salida.",
   "JOINMESSAGE_VANITY": "**{memberName}** es llegó usando una invitación personalizada **{inviteCode}**.",
   "LEAVEMESSAGE_UNKNOW": "No se quien invito **{memberName}**.",
-  "LEAVEMESSAGE_NORMAL": "**{memberName}** Abandono el servidor. Fue invitado por **{inviterName}**.",
+  "LEAVEMESSAGE_NORMAL": "**{memberName}** es una apuesta. Fue invitado por **{inviterName}**.",
   "LEAVEMESSAGE_VANITY": "**{memberName}** fue invitado con una invitación personalizada.",
   "LEAVEMESSAGE_BOT": "**{memberName}** es un bot y ha sido eliminado de este servidor.",
   "LEADERBOARD_EMPTY": "*Nada que mostrar...*",

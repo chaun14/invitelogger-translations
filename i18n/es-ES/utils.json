@@ -1,24 +1,28 @@
 {
-    "PING": "El ping del bot es {{botPing}}ms, tu ping con la API de discordia es {{apiPing}}ms.",
-    "PINGDESC": "Mostrar latencia del bot.",
-    "HELPGENERAL1": "Bienvenido al menú de ayuda de {{botName}}.\nMi prefijo en este servidor es `{{prefix}}`.\nPara obtener más información sobre un pedido, escriba  `{{prefix}}help <pedido>`.",
-    "HELPSPECIFIC1": "Ayuda para pedidos `{{cmd}}`.",
-    "HELPSPECIFIC_DESC": "Descripción del comando:",
-    "HELPSPECIFIC_CATEGORY": "Categoría de pedido:",
-    "HELPSPECIFIC_ALIASES": "Alias ​​de comando ({{count}}) :",
-    "HELPSPECIFIC_SYNTAX": "Sintaxis del comando:",
-    "HELPDESC": "Lista de comandos de bot.",
-    "BOTINFOS_DESCRIPTION": "El bot tiene `{{members}}` distribuido en `{{guilds}}` servidores.\n\n**__Información del sistema__**\nRAM: `{{usedRam}}MO` / `{{totalRam}}MO`\nProcesador: {{proc}} (utilizar a `{{procUsage}}%`)\n\n",
-    "BOTINFOS_CMDDESC": "Muestra información sobre el bot.",
-    "BOTINFOS_SHARDINFOS": "Servidores: `{{guildSize}}`\nRAM: `{{ramUsed}}MO`\nLatencia: `{{ping}}ms`",
-    "HELPLINKS_LINKS": "Agregame ! [[aquí]]({{inviteLink}})\nMi tablero ! [[aquí]]({{dashboardLink}})\nSupport server [[join us]](https://discord.gg/vyQvDKVg7d)\nSupport us ! [[thanks]](https://paypal.me/chaun14)",
-    "HELPLINKS_TITLE": "Enlace",
-    "credits": {
-        "MAIN": "**__Invitelogger__**\n\n*Invitelogger es un Bot en Propiedad de `chaun14#1403` (<@!417977361011572747>) que le permiten realizar un seguimiento de las invitaciones de los usuarios*\n\n**Programadores :**\n[chaun14#1403](https://github.com/chaun14) -> `Bot` & `Yggdrasil ` & `Dashboard back-end`\n[Spokloo#7791](https://github.com/spokloo) -> `Dashboard front-end`\n\n**Inspired from :**\n[ManageInvite](https://github.com/ManageInvite/ManageInvite) -> `i18n system`\n[InviteManager](https://github.com/SideProjectGuys/invite-manager-bot) -> `invite tracking`, `database structure`\n[Sworder/Dashboard.io](https://github.com/ZerioDev/Dashboard.io) -> `Dashboard auth system`\n\n**Thanks to :**\nAll donators 🌟\nAll [translators](https://github.com/chaun14/invitelogger-translations/graphs/contributors)\nAll [staffs](https://discord.gg/vyQvDKVg7d)\n`OcelusPRO#0001`(<@!240139319992516611>)\n`Gauthier#0875` (<@!332119827311230976>)",
-        "DESC": "Mostrar Creditos del BOT"
-    },
-    "getbot": {
-        "MAIN": "__**Invite Invitelogger**__\n\nAdd <@!{{ bot }}> to you server [here](https://discord.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://invitelogger.me/dashboard/guilds&permissions=268462304&client_id={{ bot }})\nEasy config using my [dashboard](https://invitelogger.me/dashboard/guilds)\n\nSupport server [[join us]](https://discord.gg/vyQvDKVg7d)\nSupport us ! [[thanks]](https://paypal.me/chaun14)",
-        "DESC": "Get the link to invite the bot"
-    }
+  "PING": "El ping del bot es {{botPing}}ms, tu ping con la API de discordia es {{apiPing}}ms.",
+  "PINGDESC": "Mostrar latencia del bot.",
+  "HELPGENERAL1": "Bienvenido al menú de ayuda de {{botName}}.\nMi prefijo en este servidor es `{{prefix}}`.\nPara obtener más información sobre un pedido, escriba  `{{prefix}}help <pedido>`.",
+  "HELPSPECIFIC1": "Ayuda para pedidos `{{cmd}}`.",
+  "HELPSPECIFIC_DESC": "Descripción del comando:",
+  "HELPSPECIFIC_CATEGORY": "Categoría de pedido:",
+  "HELPSPECIFIC_ALIASES": "Alias ​​de comando ({{count}}) :",
+  "HELPSPECIFIC_SYNTAX": "Sintaxis del comando:",
+  "HELPDESC": "Lista de comandos de bot.",
+  "BOTINFOS_DESCRIPTION": "El bot tiene `{{members}}` distribuido en `{{guilds}}` servidores.\n\n**__Información del sistema__**\nRAM: `{{usedRam}}MO` / `{{totalRam}}MO`\nProcesador: {{proc}} (utilizar a `{{procUsage}}%`)\n\n",
+  "BOTINFOS_CMDDESC": "Muestra información sobre el bot.",
+  "BOTINFOS_SHARDINFOS": "Servidores: `{{guildSize}}`\nRAM: `{{ramUsed}}MO`\nLatencia: `{{ping}}ms`",
+  "HELPLINKS_LINKS": "Agregame ! [[aquí]]({{inviteLink}})\nMi tablero ! [[aquí]]({{dashboardLink}})\nSupport server [[join us]](https://discord.gg/vyQvDKVg7d)\nSupport us ! [[thanks]](https://paypal.me/chaun14)",
+  "HELPLINKS_TITLE": "Enlace",
+  "credits": {
+    "MAIN": "**__Invitelogger__**\n\n*Invitelogger is a bot owned by `chaun14#1403` (<@!417977361011572747>) which allow you to track user invites*\n\n**Developpers :**\n[chaun14#1403](https://github.com/chaun14) -> `Bot` & `Yggdrasil ` & `Dashboard back-end`\n[Spokloo#7791](https://github.com/spokloo) -> `Dashboard front-end`\n\n**Inspired from :**\n[ManageInvite](https://github.com/ManageInvite/ManageInvite) -> `i18n system`\n[InviteManager](https://github.com/SideProjectGuys/invite-manager-bot) -> `invite tracking`, `database structure`\n[Sworder/Dashboard.io](https://github.com/ZerioDev/Dashboard.io) -> `Dashboard auth system`\n\n**Thanks to :**\nAll donators 🌟\nAll [translators](https://github.com/chaun14/invitelogger-translations/graphs/contributors)\nAll [staffs](https://discord.gg/vyQvDKVg7d)\n`OcelusPRO#0001`(<@!240139319992516611>)\n`Gauthier#0875` (<@!332119827311230976>)",
+    "DESC": "Show bot credits"
+  },
+  "getbot": {
+    "MAIN": "__**Invite Invitelogger**__\n\nAdd <@!{{ bot }}> to you server [here](https://discord.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://invitelogger.me/dashboard/guilds&permissions=268462304&client_id={{ bot }})\nEasy config using my [dashboard](https://invitelogger.me/dashboard/guilds)\n\nSupport server [[join us]](https://discord.gg/vyQvDKVg7d)\nSupport us ! [[thanks]](https://paypal.me/chaun14)",
+    "DESC": "Get the link to invite the bot"
+  },
+  "votes": {
+    "MAIN": "Support us by voting our bot on discord bot lists ⭐\n\nVote to the bot on [top.gg](https://top.gg/bot/499595256270946326/vote)\nOr [discord.boats](https://www.discord.boats/bot/499595256270946326/vote)",
+    "DESC": "Shows discord bot list vote links"
+  }
 }

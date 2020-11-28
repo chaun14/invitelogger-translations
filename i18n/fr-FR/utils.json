@@ -20,5 +20,9 @@
   "getbot": {
     "MAIN": "__**Inviter Invitelogger**__\n\nAjoutez <@!{{ bot }}> à votre serveur [ici](https://discord.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://invitelogger.me/dashboard/guilds&permissions=268462304&client_id={{ bot }})\nFacilement configurable sur mon [dashboard](https://invitelogger.me/dashboard/guilds)\n\nServeur de support [[nous rejoindre]](https://discord.gg/vyQvDKVg7d)\nNous soutenir ! [[Merci]](https://paypal.me/chaun14)",
     "DESC": "Pour avoir le lien d'invitation du bot"
+  },
+  "votes": {
+    "MAIN": "Support us by voting our bot on discord bot lists ⭐\n\nVote to the bot on [top.gg](https://top.gg/bot/499595256270946326/vote)\nOr [discord.boats](https://www.discord.boats/bot/499595256270946326/vote)",
+    "DESC": "Shows discord bot list vote links"
   }
 }
