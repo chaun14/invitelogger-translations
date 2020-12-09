@@ -24,5 +24,6 @@
   "votes": {
     "MAIN": "Support us by voting our bot on discord bot lists ⭐\n\nVote to the bot on [top.gg](https://top.gg/bot/499595256270946326/vote)\nOr [discord.boats](https://www.discord.boats/bot/499595256270946326/vote)",
     "DESC": "Shows discord bot list vote links"
-  }
+  },
+  "HELPSPECIFIC_PERMS": "Permissions :"
 }
