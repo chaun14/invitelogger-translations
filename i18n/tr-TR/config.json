@@ -1,0 +1,9 @@
+{
+  "SETPREFIX_SAME": ":x: Yeni prefix (`{{newPrefix}}`) olarak ayarlandı, eskisi artık çalışmıcak.",
+  "SETPREFIX_SUCCESS": "✅ Yeni prefix ( `{{newPrefix}}` ) olarak ayarlandı. {{time}}ms.",
+  "SETLANG_SAME": ":x: Bot dili ( `{{lang}}` ) şuanki dil olamaz.",
+  "SETLANG_SUCCESS": "✅ Yeni dil ( `{{lang}}` ) olarak ayarlandı. {{time}}ms.",
+  "SETLANG_DESC": "Botun Dilini Değiştirin",
+  "SETLANG_UNKNOW": ":x: __**Bilinmeyen Dil**__\n\nLütfen mevcut bir dil kullan: {{langList}}",
+  "SETPREFIX_DESC": "Botun önekini değiştirin"
+}
