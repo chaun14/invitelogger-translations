@@ -1,91 +1,91 @@
 {
   "guilds": {
-    "SELECTGUILDCONFIG": "Select a server to configure:",
-    "WELCOMEUSER": "Hi {{user}} !",
-    "ADDMETHERE": "Add me here:",
-    "NOSERVTOCONFIG": "Sorry, you cannot configure any servers :(",
-    "NOSERVTOADD": "Sorry, you currently have no servers where you can add me :("
+    "SELECTGUILDCONFIG": "Başlamak için bir sunucu seç:",
+    "WELCOMEUSER": "Hoşgeldin {{user}} !",
+    "ADDMETHERE": "Botu bu sunucuya ekle:",
+    "NOSERVTOCONFIG": "Opss, ayarlama yapabilceğin hiçbir sunucun bulunmuyor :(",
+    "NOSERVTOADD": "Opss, botu ekleyebilceğin hiçbir sunucun bulunmuyor :("
   },
   "server": {
     "sidebar": {
-      "TITLE": "Settings",
-      "INVITES": "Invites",
-      "COMMANDS": "Commands",
-      "MAIN": "Miscellaneous",
-      "RANKS": "Ranks"
+      "TITLE": "Ayarlar",
+      "INVITES": "Davet Ayarları",
+      "COMMANDS": "Komut Ayarları",
+      "MAIN": "Genel Bot Ayarları",
+      "RANKS": "Rütbeler"
     },
     "main": {
       "PREFIXTITLE": "Prefix",
-      "PREFIXDESC": "Change the current <strong>prefix</strong>.",
-      "LANGTITLE": "Language",
-      "LANGDESC": "Change the current <strong>language</strong>."
+      "PREFIXDESC": "Botun <strong>prefix</strong>'ini değiştir.",
+      "LANGTITLE": "Dil",
+      "LANGDESC": "Botun <strong>dilini</strong> değiştir."
     },
     "invites": {
       "join": {
-        "MESSAGE_TITLE": "Join Messages",
-        "MESSAGE_DESC": "What join message do you want to modify?",
+        "MESSAGE_TITLE": "Giriş Mesajı",
+        "MESSAGE_DESC": "Giriş mesajını ne olarak ayarlamak istersin?",
         "messages": {
-          "HIMSELF_TITLE": "Invited himself",
-          "NORMAL_TITLE": "Normal join",
-          "UNKNOWN_TITLE": "Unknown inviter",
-          "VANITY_TITLE": "Vanity invite",
-          "NORMAL_DESC": "When a user is invited by someone else.",
-          "HIMSELF_DESC": "When a user invites himself to your server.",
-          "UNKNOWN_DESC": "When a user joins but I can't tell who invited them.",
-          "VANITY_DESC": "When a user is invited with a custom code."
+          "HIMSELF_TITLE": "Kendini davet eden mesajı",
+          "NORMAL_TITLE": "Normal davet mesajı",
+          "UNKNOWN_TITLE": "Bilinmeyen davetçi mesajı",
+          "VANITY_TITLE": "Özel davet linkinden giren mesajı",
+          "NORMAL_DESC": "Kullanıcı bir başkası tarafından davet edildiğinde.",
+          "HIMSELF_DESC": "Kullanıcı kendi davet linkinden sunucuya girdiğinde.",
+          "UNKNOWN_DESC": "Kullanıcı sunucuya girdiğinde ama davet eden kişi bulunamadığında.",
+          "VANITY_DESC": "Sunucunun 30 takviye veya partnerlik ile alınan davet linkinden girdiğinde."
         },
-        "CHANNEL_TITLE": "Join Channel",
-        "CHANNEL_DESC": "Change the channel where the join messages are logged in."
+        "CHANNEL_TITLE": "Giriş Kanalı",
+        "CHANNEL_DESC": "Giriş mesajının atılmasını istediğin kanalı ayarla."
       },
-      "DOWNNOTE": "The field must be empty in order to reset the message to it's default value.",
+      "DOWNNOTE": "Varsayılan ayarı yapmak için boş bırakın.",
       "leave": {
-        "MESSAGE_TITLE": "Leave Messages",
-        "MESSAGE_DESC": "What leave message do you want to modify?",
+        "MESSAGE_TITLE": "Ayrılma Mesajı",
+        "MESSAGE_DESC": "Ayrılma mesajını ne olarak ayarlamak istersin?",
         "messages": {
-          "NORMAL_TITLE": "Normal leave",
-          "UNKNOWN_TITLE": "Unknown inviter",
-          "VANITY_TITLE": "Vanity invite",
-          "NORMAL_DESC": "When a user leaves and was invited by someone else.",
-          "UNKNOWN_DESC": "When a user leaves but I can't tell who invited them.",
-          "VANITY_DESC": "When a user leaves and was invited with a custom code."
+          "NORMAL_TITLE": "Normal davet mesajı",
+          "UNKNOWN_TITLE": "Bilinmeyen davetçi mesajı",
+          "VANITY_TITLE": "Özel davet linkinden giren mesajı",
+          "NORMAL_DESC": "Kullanıcı bir başkası tarafından davet edilip, sunucudan ayrıldığında.",
+          "UNKNOWN_DESC": "Kullanıcı sunucudan ayrıldığında ama davet eden kişi bulunamadığında.",
+          "VANITY_DESC": "Sunucunun 30 takviye veya partnerlik ile alınan davet linkinden girip, sunucudan ayrıldığında."
         },
-        "CHANNEL_TITLE": "Leave Channel",
-        "CHANNEL_DESC": "Change the channel where the leave messages are logged in"
+        "CHANNEL_TITLE": "Ayrılma Kanalı",
+        "CHANNEL_DESC": "Ayrılma mesajının atılmasını istediğin kanalı ayarla."
       },
       "placeholders": {
         "both": {
-          "TITLE": "● For join and leave messages",
+          "TITLE": "● Hem giriş, hem ayrılma mesajı için",
           "items": {
-            "MEMBERNAME": "The discord username of the member.",
-            "MEMBERID": "The discord ID of the member.",
-            "MEMBERFULLNAME": "The username and discriminator of the member.",
-            "MEMBERMENTION": "The mention of the member (they will be pinged).",
-            "MEMBERIMAGE": "URL of the member's avatar.",
-            "MEMBERCREATEDDATE": "Date the discord user account was created.",
-            "MEMBERCREATEDDURATION": "Duration since the discord user account was created.",
-            "MEMBERCREATEDSINCE": "Time the discord user account was created.",
-            "INVITECOUNT": "Gives the invites count of the inviter.",
-            "INVITERNAME": "The discord username of the inviter.",
-            "INVITERID": "The discord ID of the inviter.",
-            "INVITERMENTION": "The mention of the inviter (user will be pinged).",
-            "INVITERFULLNAME": "The username and discriminator of the inviter.",
-            "GUILDMEMBERCOUNT": "Number of members your server has in total.",
-            "GUILDNAME": "Gives the current name of the server.",
-            "GUILDICON": "URL of the server's icon."
+            "MEMBERNAME": "Kullanıcının ismi.",
+            "MEMBERID": "Kullanıcının Discord ID'si.",
+            "MEMBERFULLNAME": "Kullanıcının tam ismi (# bölümü dahil).",
+            "MEMBERMENTION": "Kullanıcının etiketi.",
+            "MEMBERIMAGE": "Kullanıcının avatar linki.",
+            "MEMBERCREATEDDATE": "Kullanıcının hesabını oluşturma tarihi.",
+            "MEMBERCREATEDDURATION": "Kullanınıcın hesabının süredir açık olduğunun tarihi.",
+            "MEMBERCREATEDSINCE": "Kullanıcının hesabının ne zaman açıldığının tarihi.",
+            "INVITECOUNT": "Davet eden kişinin davet sayısı.",
+            "INVITERNAME": "Davet eden kişinin ismi.",
+            "INVITERID": "Davet eden kişinin Discord ID'si.",
+            "INVITERMENTION": "Davet eden kişinin etiketi.",
+            "INVITERFULLNAME": "Davet eden kişinin tüm ismi (# bölümü dahil).",
+            "GUILDMEMBERCOUNT": "Sunucudaki kişi sayısı.",
+            "GUILDNAME": "Sunucunun ismi.",
+            "GUILDICON": "Sunucunun fotoğraf linki."
           }
         },
-        "DESC": "Placeholders",
-        "TABLE_EXAMPLE": "Example",
-        "TABLE_DESC": "Description",
+        "DESC": "Değişkenler",
+        "TABLE_EXAMPLE": "Örnek",
+        "TABLE_DESC": "Açıklama",
         "joinOnly": {
           "items": {
-            "INVITERIMAGE": "URL of the inviter's avatar."
+            "INVITERIMAGE": "Davet eden kişinin avatar linki."
           },
-          "TITLE": "● For join only messages"
+          "TITLE": "● Sadece giriş mesajı için"
         }
       }
     },
-    "SERVERINFOS": "{{memberCount}} Members | {{channelCount}} Channels",
+    "SERVERINFOS": "{{memberCount}} Üye | {{channelCount}} Kanal",
     "commands": {
       "permissions": {
         "NOTE": "Note: User permissions override role permissions.",
