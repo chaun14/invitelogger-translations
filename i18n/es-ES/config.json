@@ -1,9 +1,51 @@
 {
-  "SETPREFIX_SAME": ":x: El nuevo prefijo (`{{newPrefix}}`) no puede ser el mismo que el anterior .",
+  "SETPREFIX_SAME": ":x: El nuevo prefijo (`{{newPrefix}}`) no puede ser el mismo que el anterior.",
   "SETPREFIX_SUCCESS": "✅ El nuevo prefijo ( `{{newPrefix}}` ) se ha definido con éxito en {{time}}ms.",
   "SETLANG_SAME": ":x: El nuevo idioma ( `{{lang}}` ) no puede ser igual que el actual.",
   "SETLANG_SUCCESS": "✅ El nuevo idioma ( `{{lang}}` ) se ha definido con éxito en {{time}}ms.",
-  "SETLANG_DESC": "Cambiar el idioma del bot",
+  "SETLANG_DESC": "Cambiar el idioma del bot.",
   "SETLANG_UNKNOW": ":x: __**Idioma desconocido**__\n\nEspecifique uno de los siguientes idiomas : {{langList}}",
-  "SETPREFIX_DESC": "Cambiar el prefijo del bot"
+  "SETPREFIX_DESC": "Cambiar el prefijo del bot.",
+  "SETPERMS_MAINMENU_ROLE": "¿Qué quieres hacer con el miembro que tiene el rol <@ & {{role_id}}> en el comando `{{command}}` ? \n\n✅ Anula los permisos de discordia y permíteles ejecutar ese comando. \n🚫 Bloquéelos para usar este comando. \n🗑 Elimine la anulación de permisos y use los permisos nativos de discord. \n❌ Cancelar.",
+  "SETPERMS_CANCELED": "Configuración de permisos de comandos cancelada.\n\nEscriba `{{prefijo}}{{usar}}` para reiniciar.",
+  "SETPERMS_UNKNOWN_CMD": ":x: __**Comando Desconocido**__ \n\nEjemplo: `{{prefix}}{{example}}`",
+  "SETPERMS_ALREADYEXISTS_ROLE": "❌ La anulación del permiso de comando para el rol <@&{{role_id}}> sobre el `{{command}}` el comando ya está configurado en `{{value}}`.",
+  "SETPERMS_OK_ROLE": "✅ La anulación del permiso de comando para el rol <@&{{role_id}}> sobre el `{{command}}` El comando se ha establecido en `{{value}}`.",
+  "SETPERMS_UPDATED_ROLE": "✅ La anulación del permiso de comando para el rol <@&{{role_id}}> sobre el `{{command}}` El comando ha sido cambiado de `{{previous}}` a `{{after}}` .",
+  "SETPERMS_NOSET": "❌ No hay anulación de permisos para este rol / usuario en este comando.",
+  "SETPERMS_DELETEOK": "✅ Todos los permisos anulados se han eliminado correctamente.",
+  "SETPERMS_UNKNOWN_USER": ":x: __**Miembro no Encontrado**__ \n\nPor favor dame un(a) tag/id/nombre o un tag de un rol valido.\nEjemplo: `{{prefix}}{{example}}`",
+  "SETPERMS_MAINMENU_USER": "Que quieres hacer con <@!{{user_id}}> sobre el comando: `{{command}}` ?\n\n✅ Anula los permisos de discord y permíteles ejecutar ese comando. \n🚫 Bloquéalos para usar este comando. \n🗑 Elimina la anulación de permisos y usa los permisos nativos de discord. \n❌ Cancelar.",
+  "SETPERMS_UPDATED_USER": "✅ La anulación del permiso de comando para el miembro <@!{{user_id}}> sobre el comando `{{command}}` ha sido cambiado de `{{previous}}` a `{{after}}` .",
+  "SETPERMS_ALREADYEXISTS_USER": "❌ La anulación del permiso de comando para el usuario <@!{{user_id}}> sobre el comando `{{command}}` ya está configurado en `{{value}}`.",
+  "SETPERMS_OK_USER": "✅ La anulación del permiso de comando para el usuario <@!{{user_id}}> sobre el comando `{{command}}` ya esta configurado en `{{value}}`.",
+  "SETPERMS_DESC": "Permitir o bloquear algunos roles / usuarios para acceder a los comandos del bot.",
+  "SETPERMS_FORBIDDENCMD": "❌ Lo sentimos, no puede anular los permisos de este comando por razones de seguridad.",
+  "SETFAKETHRESHOLD_OVER": "❌ __**Edad mínima incorrecta de la cuenta ** __\n\nLa cantidad de días desde la creación de una cuenta debe incluirse entre 1 y 1000.",
+  "SETFAKETHRESHOLD_OK": "✅ El umbral de antigüedad mínima de la cuenta se ha establecido correctamente en `{{count}}` días en `{{time}}`ms.",
+  "SETFAKETHRESHOLD_DESC": "Establezca el recuento mínimo de días desde la creación de la cuenta del miembro que se une. Si están por debajo del recuento dado, la unión se contará como falsa.",
+  "rankConfig": {
+    "interactive": {
+      "MAIN": "**Configure rank reward system:**\n\n1️⃣ `Ranks assignment style :` \n*Select if the bot will give only the highest rank or if it needs to stack them.*\n**Current value**: `{{assignmentVal}}`\n\n2️⃣ `Rank's keep style :`\n*Select if the bot will remove given ranks when members fall below the required invites amount or if they will keep their ranks indefinitely*\n**Current value**: `{{keepVal}}`",
+      "keys": {
+        "assignment": {
+          "HIGHEST": "Highest",
+          "STACKED": "Stacked",
+          "MAIN": "__**Select ranks assignment style: **__\n*Config how role ranks will be given*\n\nCurrent setting: `{{assignmentVal}}`\n\n🥇 - Set it to the **highest** rank only.\n📚 - **Stack** all reached ranks.\n❌ - Back to main menu.",
+          "OK": "✅ The ranks assignment style has been successfully set from `{{oldVal}}` to `{{newVal}}`.",
+          "ALREADY": "❌ The ranks assignment style is already set to `{{oldVal}}`"
+        },
+        "keep": {
+          "DYNAMIC": "Dynamic",
+          "WIN": "Win",
+          "MAIN": "__**Select rank's keep style: **__\n*Config how role ranks will be removed*\n\nCurrent setting: `{{oldVal}}`\n\n🔁 -  Remove ranks **dynamically** when users loose invites.\n🏆 - Once a role is **win**, it won't be removed.\n❌ - Back to main menu.",
+          "ALREADY": "❌ The rank's keep style is already set to `{{oldVal}}`",
+          "OK": "✅ The rank's keep style has been successfully set from `{{oldVal}}` to `{{newVal}}`."
+        }
+      },
+      "CANCELED": "Ranks config canceled.\n\nType `{{prefix}}rankConfig` to restart.",
+      "LOADING": "Loading..."
+    },
+    "DESC": "Manage ranks giving / removal."
+  }
 }

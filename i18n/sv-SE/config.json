@@ -3,7 +3,49 @@
   "SETPREFIX_SUCCESS": "✅ Det nya prefixet ( `{{newPrefix}}` ) har ställts in i {{time}}ms.",
   "SETLANG_SAME": ":x: De nya språket ( `{{lang}}` ) kan inte vara likadant som det nuvarande språket.",
   "SETLANG_SUCCESS": "✅ Det nya språket ( `{{lang}}` ) har ställts in i {{time}}ms.",
-  "SETLANG_DESC": "Ändra denna bot's språk",
+  "SETLANG_DESC": "Ändra denna bot's språk.",
   "SETLANG_UNKNOW": ":x: __**Okänt språk**__\n\nVänligen använd ett tillgängligt språk: {{langList}}",
-  "SETPREFIX_DESC": "Ändra denna bot's prefix"
+  "SETPREFIX_DESC": "Ändra denna bot's prefix.",
+  "SETPERMS_MAINMENU_ROLE": "Which permissions do you want to give to members who have the role <@&{{role_id}}> on the `{{command}}` command?\n\n✅ Give them the permission to run that command.\n🚫 Remove them the permission to run that command.\n🗑 Delete every changed permissions for that role and use default permissions.\n❌ Cancel.",
+  "SETPERMS_CANCELED": "Commands permissions setup canceled.\n\nType `{{prefix}}{{use}}` to restart.",
+  "SETPERMS_UNKNOWN_CMD": ":x: __**Unknown command**__ \n\nExample: `{{prefix}}{{example}}`",
+  "SETPERMS_ALREADYEXISTS_ROLE": "❌ The permission override of the `{{command}}` command for the role <@&{{role_id}}> is already set to `{{value}}`.",
+  "SETPERMS_OK_ROLE": "✅ The permission override of the `{{command}}` command for the role <@&{{role_id}}> has been successfully set to `{{value}}`.",
+  "SETPERMS_UPDATED_ROLE": "✅ The permission override of the `{{command}}` command for the role <@&{{role_id}}> has been successfully changed from `{{previous}}` to `{{after}}`.",
+  "SETPERMS_NOSET": "❌ There are no changed permissions for this role or user on this command.",
+  "SETPERMS_DELETEOK": "✅ All permissions override have been successfully deleted.",
+  "SETPERMS_UNKNOWN_USER": ":x: __**Member or role not found**__ \n\nPlease give a valid member tag, role tag, id, or username.\nExample: `{{prefix}}{{example}}`",
+  "SETPERMS_MAINMENU_USER": "Which permissions do you want to give to the user <@!{{user_id}}> on the `{{command}}` command?\n\n✅ Give them the permission to run that command.\n🚫 Remove them the permission to run that command.\n🗑 Delete every changed permissions for that user and use default permissions.\n❌ Cancel.",
+  "SETPERMS_UPDATED_USER": "✅ The permission override of the `{{command}}` command for the user <@!{{user_id}}> has been successfully changed from `{{previous}}` to `{{after}}`.",
+  "SETPERMS_ALREADYEXISTS_USER": "❌ The permission override of the `{{command}}` command for the user <@!{{user_id}}> is already set to `{{value}}`.",
+  "SETPERMS_OK_USER": "✅ The permission override of the `{{command}}` command for the user <@!{{user_id}}> has been successfully set to `{{value}}`.",
+  "SETPERMS_DESC": "Allow or block a certain user or role to access a command.",
+  "SETPERMS_FORBIDDENCMD": "❌ Sorry, you cannot change the permissions of this command for security reason.",
+  "SETFAKETHRESHOLD_OVER": "❌ __**Invalid age given**__\n\nThe amount of days since an account creation must be included between 1 and 1000.",
+  "SETFAKETHRESHOLD_OK": "✅ The minimum account age threshold has been successfully set to `{{count}}` days in `{{time}}`ms.",
+  "SETFAKETHRESHOLD_DESC": "Set the minimum day count since the account creation of the joining member. If their account was created before the given day count, the invite will be counted as fake.",
+  "rankConfig": {
+    "interactive": {
+      "MAIN": "**Configure rank reward system:**\n\n1️⃣ `Ranks assignment style :` \n*Select if the bot will give only the highest rank or if it needs to stack them.*\n**Current value**: `{{assignmentVal}}`\n\n2️⃣ `Rank's keep style :`\n*Select if the bot will remove given ranks when members fall below the required invites amount or if they will keep their ranks indefinitely*\n**Current value**: `{{keepVal}}`",
+      "keys": {
+        "assignment": {
+          "HIGHEST": "Highest",
+          "STACKED": "Stacked",
+          "MAIN": "__**Select ranks assignment style: **__\n*Config how role ranks will be given*\n\nCurrent setting: `{{assignmentVal}}`\n\n🥇 - Set it to the **highest** rank only.\n📚 - **Stack** all reached ranks.\n❌ - Back to main menu.",
+          "OK": "✅ The ranks assignment style has been successfully set from `{{oldVal}}` to `{{newVal}}`.",
+          "ALREADY": "❌ The ranks assignment style is already set to `{{oldVal}}`"
+        },
+        "keep": {
+          "DYNAMIC": "Dynamic",
+          "WIN": "Win",
+          "MAIN": "__**Select rank's keep style: **__\n*Config how role ranks will be removed*\n\nCurrent setting: `{{oldVal}}`\n\n🔁 -  Remove ranks **dynamically** when users loose invites.\n🏆 - Once a role is **win**, it won't be removed.\n❌ - Back to main menu.",
+          "ALREADY": "❌ The rank's keep style is already set to `{{oldVal}}`",
+          "OK": "✅ The rank's keep style has been successfully set from `{{oldVal}}` to `{{newVal}}`."
+        }
+      },
+      "CANCELED": "Ranks config canceled.\n\nType `{{prefix}}rankConfig` to restart.",
+      "LOADING": "Loading..."
+    },
+    "DESC": "Manage ranks giving / removal."
+  }
 }

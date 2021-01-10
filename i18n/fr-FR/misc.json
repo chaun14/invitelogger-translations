@@ -5,5 +5,8 @@
   "SENDER": " • Demandé par {{user}}",
   "ASKPREFIX": "Quelqu'un m'a mentionné ?\nMon préfixe sur ce serveur est `{{prefix}}`",
   "USER_MISSING_PERMISSIONS": ":x: Désolé, vous n'avez pas la permission d'exécuter cette commande.\n\nPermission(s) manquante(s) : {{permList}}",
-  "UNKNOWUSER": ":x: __**Membre non trouvé**__\n\nJe ne trouve pas l'utilisateur demandé. Syntaxe: `{{prefix}}{{syntax}}`"
+  "UNKNOWUSER": ":x: __**Membre non trouvé**__\n\nJe ne trouve pas l'utilisateur demandé. Syntaxe: `{{prefix}}{{syntax}}`",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_ROLE": ":x: Désolé, vous n'avez pas la permission d'exécuter cette commande.\n\nVotre rôle le plus haut <@&{{role_id}}> n'est pas autorisé à exécuter cette commande.",
+  "USER_MISSING_PERMISSIONS_OVERRIDE_USER": ":x: Désolé, vous n'avez pas la permission d'exécuter cette commande.\n\nVous n'êtes pas autorisé à exécuter cette commande.",
+  "COOLDOWNED": "⏳ Vous devez encore attendre `{{remainingTime}}` seconde(s) avant d'exécuter cette commande à nouveau."
 }

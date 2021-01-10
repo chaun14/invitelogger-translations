@@ -1,9 +1,51 @@
 {
   "SETPREFIX_SAME": ":x: Le nouveau préfixe (`{{newPrefix}}`) ne peut pas être le même que l'ancien.",
   "SETPREFIX_SUCCESS": "✅ Le nouveau préfixe ( `{{newPrefix}}` ) a été défini avec succès en {{time}}ms.",
-  "SETLANG_SAME": ":x: Le nouveau langage ( `{{lang}}` ) ne peut pas être le même que celui actuel.",
+  "SETLANG_SAME": ":x: Le nouveau langage ( `{{lang}}` ) ne peut pas être le même que celui actuellement défini.",
   "SETLANG_SUCCESS": "✅ Le nouveau langage ( `{{lang}}` ) a été défini avec succès en {{time}}ms.",
-  "SETLANG_DESC": "Change le langage du bot",
-  "SETLANG_UNKNOW": ":x: __**Langage inconnu**__\n\nVeuillez spécifier un des langages suivants: {{langList}}",
-  "SETPREFIX_DESC": "Changez le préfixe du bot"
+  "SETLANG_DESC": "Change le langage du bot.",
+  "SETLANG_UNKNOW": ":x: __**Langage inconnu**__\n\nMerci d'utiliser un langage valide présent dans la liste suivante: {{langList}}",
+  "SETPREFIX_DESC": "Change le préfixe du bot.",
+  "SETPERMS_MAINMENU_ROLE": "Quelles permissions voulez-vous donner aux membres qui ont le rôle <@&{{role_id}}> sur la commande `{{command}}` ?\n\n✅ Donnez-leur la permission d'exécuter cette commande.\n🚫 Enlevez-leur la permission d'exécuter cette commande.\n🗑 Supprimez toutes permissions modifiées pour ce rôle et utilisez les permissions par défaut.\n❌ Annuler.",
+  "SETPERMS_CANCELED": "Mise en place des permissions des commandes annulée.\n\nTapez `{{prefix}}{{use}}` pour recommencer.",
+  "SETPERMS_UNKNOWN_CMD": ":x: __**Commande inconnue**__ \n\nExemple: `{{prefix}}{{example}}`",
+  "SETPERMS_ALREADYEXISTS_ROLE": "❌ L'écrasement de la permission de la commande `{{command}}` pour le rôle <@&{{role_id}}> est déjà défini sur `{{value}}`.",
+  "SETPERMS_OK_ROLE": "✅ L'écrasement de la permission de la commande `{{command}}` pour le rôle <@&{{role_id}}> a bien été défini sur `{{value}}`.",
+  "SETPERMS_UPDATED_ROLE": "✅ L'écrasement de la permission de la commande `{{command}}` pour le rôle <@&{{role_id}}> a bien été changé de `{{previous}}` à `{{after}}`.",
+  "SETPERMS_NOSET": "❌ Il n'y a pas de permissions modifiées pour ce rôle ou cet utilisateur sur cette commande.",
+  "SETPERMS_DELETEOK": "✅ Tout les écrasements de permissions ont été supprimées avec succès.",
+  "SETPERMS_UNKNOWN_USER": ":x: __**Utilisateur ou rôle non trouvé**__ \n\nMerci d'indiquer une mention d'utilisateur, mention de rôle, identifiant, ou nom d'utilisateur valide.\nExemple: `{{prefix}}{{example}}`",
+  "SETPERMS_MAINMENU_USER": "Quelles permissions voulez-vous donner à l'utilisateur <@!{{user_id}}> sur la commande `{{command}}` ?\n\n✅ Donnez-leur la permission d'exécuter cette commande.\n🚫 Enlevez-leur la permission d'exécuter cette commande.\n🗑 Supprimez toutes permissions modifiées pour cet utilisateur et utilisez les permissions par défaut.\n❌ Annuler.",
+  "SETPERMS_UPDATED_USER": "✅ L'écrasement de la permission de la commande `{{command}}` pour l'utilisateur <@!{{user_id}}> a bien été changé de `{{previous}}` à `{{after}}`.",
+  "SETPERMS_ALREADYEXISTS_USER": "❌ L'écrasement de la permission de la commande `{{command}}` pour l'utilisateur <@!{{user_id}}> est déjà défini sur `{{value}}`.",
+  "SETPERMS_OK_USER": "✅ L'écrasement de la permission de la commande `{{command}}` pour l'utilisateur <@!{{user_id}}> a bien été défini sur `{{value}}`.",
+  "SETPERMS_DESC": "Autorisez ou bloquez certains utilisateurs ou rôles à accéder à une commande.",
+  "SETPERMS_FORBIDDENCMD": "❌ Désolé, vous ne pouvez pas changer les permissions de cette commande pour des raisons de sécurité.",
+  "SETFAKETHRESHOLD_OVER": "❌ __**Âge donné invalide**__\n\nLe nombre de jours depuis la création d'un compte doit être compris entre 1 et 1000.",
+  "SETFAKETHRESHOLD_OK": "✅ Le seuil pour l'âge minimum du compte a bien été défini à `{{count}}` jours en `{{time}}`ms.",
+  "SETFAKETHRESHOLD_DESC": "Fixer le nombre de jour minimum depuis la création du compte de l'utilisateur qui vient de rejoindre. Si leur compte a été créé avant le nombre de jours fixé, l'invitation sera comptée comme fausse.",
+  "rankConfig": {
+    "interactive": {
+      "MAIN": "**Configure rank reward system:**\n\n1️⃣ `Ranks assignment style :` \n*Select if the bot will give only the highest rank or if it needs to stack them.*\n**Current value**: `{{assignmentVal}}`\n\n2️⃣ `Rank's keep style :`\n*Select if the bot will remove given ranks when members fall below the required invites amount or if they will keep their ranks indefinitely*\n**Current value**: `{{keepVal}}`",
+      "keys": {
+        "assignment": {
+          "HIGHEST": "Le plus haut",
+          "STACKED": "Additionés",
+          "MAIN": "__**Select ranks assignment style: **__\n*Config how role ranks will be given*\n\nCurrent setting: `{{assignmentVal}}`\n\n🥇 - Set it to the **highest** rank only.\n📚 - **Stack** all reached ranks.\n❌ - Back to main menu.",
+          "OK": "✅ The ranks assignment style has been successfully set from `{{oldVal}}` to `{{newVal}}`.",
+          "ALREADY": "❌ The ranks assignment style is already set to `{{oldVal}}`"
+        },
+        "keep": {
+          "DYNAMIC": "Dynamiquement",
+          "WIN": "Gagnés",
+          "MAIN": "__**Select rank's keep style: **__\n*Config how role ranks will be removed*\n\nCurrent setting: `{{oldVal}}`\n\n🔁 -  Remove ranks **dynamically** when users loose invites.\n🏆 - Once a role is **win**, it won't be removed.\n❌ - Back to main menu.",
+          "ALREADY": "❌ The rank's keep style is already set to `{{oldVal}}`",
+          "OK": "✅ The rank's keep style has been successfully set from `{{oldVal}}` to `{{newVal}}`."
+        }
+      },
+      "CANCELED": "Ranks config canceled.\n\nType `{{prefix}}rankConfig` to restart.",
+      "LOADING": "Chargement..."
+    },
+    "DESC": "Manage ranks giving / removal."
+  }
 }

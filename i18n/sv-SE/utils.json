@@ -1,16 +1,29 @@
 {
-  "PING": "Denna bot's ping är {{botPing}}ms, discord's api ping är {{apiPing}}ms",
-  "PINGDESC": "Visar denna bot's ping",
-  "HELPGENERAL1": "Välkommen till {{botName}}'s hjälp.\nMitt prefix i denna servern är `{{prefix}}`.\nFör mer information om ett kommando, skriv `{{prefix}}help <command>`",
-  "HELPSPECIFIC1": "Hjälp om kommandot `{{cmd}}`",
+  "PING": "Denna bot's ping är {{botPing}}ms, discord's api ping är {{apiPing}}ms.",
+  "PINGDESC": "Visar denna bot's ping.",
+  "HELPGENERAL1": "Välkommen till {{botName}}'s hjälp.\nMitt prefix i denna servern är `{{prefix}}`.\nFör mer information om ett kommando, skriv `{{prefix}}help <command>`.",
+  "HELPSPECIFIC1": "Hjälp om kommandot `{{cmd}}`.",
   "HELPSPECIFIC_DESC": "Kommand description:",
   "HELPSPECIFIC_CATEGORY": "Kommand categori:",
   "HELPSPECIFIC_ALIASES": "Kommando aliases ({{count}}) :",
   "HELPSPECIFIC_SYNTAX": "Kommando syntax:",
-  "HELPDESC": "Lista med alla botens kommandon",
-  "BOTINFOS_DESCRIPTION": "Denna bot har `{{members}}` användare utspridna i `{{guilds}}` guilds.\n\n**__System information__**\nRam: `{{usedRam}}MB` / `{{totalRam}}MB`\nProcessor: {{proc}} (används på `{{procUsage}}%`)",
-  "BOTINFOS_CMDDESC": "Visar information om denna bot",
+  "HELPDESC": "Lista med alla botens kommandon.",
+  "BOTINFOS_DESCRIPTION": "This shard (`{{shardId}}`) has `{{members}}` cached members spread across `{{guilds}}` guilds.\n\n**__System informations__**\nRam: `{{usedRam}}MB` / `{{totalRam}}MB`\nProcessor: {{proc}} (used at `{{procUsage}}%`)\n\n**Shard status:** https://invitelogger.me/status\n**Ongoing incidents:** https://incidents.invitelogger.me/\n**Monitor:** https://status.invitelogger.me/",
+  "BOTINFOS_CMDDESC": "Visar information om denna bot.",
   "BOTINFOS_SHARDINFOS": "Servers: `{{guildSize}}`\nRam: `{{ramUsed}}MB`\nPing: `{{ping}}ms`",
-  "HELPLINKS_LINKS": "Adda mig! [[here]]({{inviteLink}})\nMin instrumentbräda! [[here]]({{dashboardLink}})",
-  "HELPLINKS_TITLE": "Länkar"
+  "HELPLINKS_LINKS": "Adda mig! [[here]]({{inviteLink}})\nMin instrumentbräda! [[here]]({{dashboardLink}})\nSupport server [[join us]](https://discord.gg/vyQvDKVg7d)\nSupport us ! [[thanks]](https://paypal.me/chaun14)",
+  "HELPLINKS_TITLE": "Länkar",
+  "credits": {
+    "MAIN": "**__Invitelogger__**\n\n*Invitelogger is a bot owned by `chaun14#1403` (<@!417977361011572747>) which allow you to track user invites*\n\n**Developpers :**\n[chaun14#1403](https://github.com/chaun14) -> `Bot` & `Yggdrasil ` & `Dashboard back-end`\n[Spokloo#7791](https://github.com/spokloo) -> `Dashboard front-end`\n\n**Inspired from :**\n[ManageInvite](https://github.com/ManageInvite/ManageInvite) -> `i18n system`\n[InviteManager](https://github.com/SideProjectGuys/invite-manager-bot) -> `invite tracking`, `database structure`\n[Sworder/Dashboard.io](https://github.com/ZerioDev/Dashboard.io) -> `Dashboard auth system`\n\n**Thanks to :**\nAll donators 🌟\nAll [translators](https://github.com/chaun14/invitelogger-translations/graphs/contributors)\nAll [staffs](https://discord.gg/vyQvDKVg7d)\n`OcelusPRO#0001`(<@!240139319992516611>)\n`Gauthier#0875` (<@!332119827311230976>)",
+    "DESC": "Show bot credits"
+  },
+  "getbot": {
+    "MAIN": "__**Invite Invitelogger**__\n\nAdd <@!{{ bot }}> to you server [here](https://discord.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://invitelogger.me/dashboard/guilds&permissions=268462304&client_id={{ bot }})\nEasy config using my [dashboard](https://invitelogger.me/dashboard/guilds)\n\nSupport server [[join us]](https://discord.gg/vyQvDKVg7d)\nSupport us ! [[thanks]](https://paypal.me/chaun14)",
+    "DESC": "Get the link to invite the bot"
+  },
+  "votes": {
+    "MAIN": "Support us by voting our bot on discord bot lists ⭐\n\nVote to the bot on [top.gg](https://top.gg/bot/499595256270946326/vote)\nOr [discord.boats](https://www.discord.boats/bot/499595256270946326/vote)",
+    "DESC": "Shows discord bot list vote links"
+  },
+  "HELPSPECIFIC_PERMS": "Permissions :"
 }
