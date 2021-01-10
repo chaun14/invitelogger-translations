@@ -150,7 +150,7 @@
   "status": {
     "shards": {
       "TITLE": "Shard'ların durumu",
-      "NOTRESPONDING": "Şu tarihten beri aktif değiş",
+      "NOTRESPONDING": "Şu tarihten beri aktif değil",
       "NOYGGDRASIL": "Yggdrasil bağlanamadı :/"
     },
     "watchbot": {
