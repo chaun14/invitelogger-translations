@@ -1,177 +1,177 @@
 {
   "guilds": {
-    "SELECTGUILDCONFIG": "Select a server to configure:",
-    "WELCOMEUSER": "Hi {{user}} !",
-    "ADDMETHERE": "Add me here:",
-    "NOSERVTOCONFIG": "Sorry, you cannot configure any servers :(",
-    "NOSERVTOADD": "Sorry, you currently have no servers where you can add me :("
+    "SELECTGUILDCONFIG": "اختر السيرفر للبدأ :",
+    "WELCOMEUSER": "مرحبا {{user}} !",
+    "ADDMETHERE": "اضغط هنا ل اضافة البوت:",
+    "NOSERVTOCONFIG": "(المعذرة, انت لا تسطيع التعديل على اي سيرفر (لاتملك صلاحيات :(",
+    "NOSERVTOADD": "المعذرة, انت فعليا ليس لديك اي سيرفر اين يمكنك اضافتي :("
   },
   "server": {
     "sidebar": {
-      "TITLE": "Settings",
-      "INVITES": "Invites",
-      "COMMANDS": "Commands",
-      "MAIN": "Miscellaneous",
-      "RANKS": "Ranks"
+      "TITLE": "الاعدادات",
+      "INVITES": "الدعوات",
+      "COMMANDS": "الأوامر",
+      "MAIN": "متنوعة",
+      "RANKS": "الرتب"
     },
     "main": {
-      "PREFIXTITLE": "Prefix",
-      "PREFIXDESC": "Change the current <strong>prefix</strong>.",
-      "LANGTITLE": "Language",
-      "LANGDESC": "Change the current <strong>language</strong>."
+      "PREFIXTITLE": "بادئة البوت",
+      "PREFIXDESC": "تغير <strong>بادئة البوت</strong>.",
+      "LANGTITLE": "اللغة",
+      "LANGDESC": "تغير <strong>اللغة</strong>."
     },
     "invites": {
       "join": {
-        "MESSAGE_TITLE": "Join Messages",
-        "MESSAGE_DESC": "What join message do you want to modify?",
+        "MESSAGE_TITLE": "رسائل الدخول",
+        "MESSAGE_DESC": "ما رسالة الدخول التي تريد تغيرها؟",
         "messages": {
-          "HIMSELF_TITLE": "Invited himself",
-          "NORMAL_TITLE": "Normal join",
-          "UNKNOWN_TITLE": "Unknown inviter",
-          "VANITY_TITLE": "Vanity invite",
-          "NORMAL_DESC": "When a user is invited by someone else.",
-          "HIMSELF_DESC": "When a user invites himself to your server.",
-          "UNKNOWN_DESC": "When a user joins but I can't tell who invited them.",
-          "VANITY_DESC": "When a user is invited with a custom code."
+          "HIMSELF_TITLE": "دعا نفسه",
+          "NORMAL_TITLE": "دخول معتاد",
+          "UNKNOWN_TITLE": "داعي غير معروف",
+          "VANITY_TITLE": "دعوة خاصة",
+          "NORMAL_DESC": "عندما الشخص يدعى من شخص اخر .",
+          "HIMSELF_DESC": "عندما الشخص يدعي نفسه للسيرفر.",
+          "UNKNOWN_DESC": "عندما يدخل الشخص لكن لا استطيع ان اقول من دعاه.",
+          "VANITY_DESC": "(عندما الشخص يدعى بواسطة رابط خاص (مخصص ."
         },
-        "CHANNEL_TITLE": "Join Channel",
-        "CHANNEL_DESC": "Change the channel where the join messages are logged in."
+        "CHANNEL_TITLE": "روم االدخول",
+        "CHANNEL_DESC": "تغير الروم التي يكتب فيها رسائل الدخول ."
       },
-      "DOWNNOTE": "The field must be empty in order to reset the message to it's default value.",
+      "DOWNNOTE": "يجب ان يكون المحتوى (المربع) فارغًا لاعادة الرسالةالى شكلها الافتراضي .",
       "leave": {
-        "MESSAGE_TITLE": "Leave Messages",
-        "MESSAGE_DESC": "What leave message do you want to modify?",
+        "MESSAGE_TITLE": "رسائل الخروج",
+        "MESSAGE_DESC": "ما رسالة الخروج التي تريد تغيرها؟",
         "messages": {
-          "NORMAL_TITLE": "Normal leave",
-          "UNKNOWN_TITLE": "Unknown inviter",
-          "VANITY_TITLE": "Vanity invite",
-          "NORMAL_DESC": "When a user leaves and was invited by someone else.",
-          "UNKNOWN_DESC": "When a user leaves but I can't tell who invited them.",
-          "VANITY_DESC": "When a user leaves and was invited with a custom code."
+          "NORMAL_TITLE": "الماغدرة الافتراضية",
+          "UNKNOWN_TITLE": "داعي غير معروف",
+          "VANITY_TITLE": "دعوة خاصة",
+          "NORMAL_DESC": "عندما يغادر الشخص ولقد دعي بواسطة شخص اخر .",
+          "UNKNOWN_DESC": "عندما يغادر الشخص لكن لا استطيع ان اقول من دعاه.",
+          "VANITY_DESC": "(عندما الشخص يخرج ويكون قد دعي بواسطة رابط خاص (مخصص."
         },
-        "CHANNEL_TITLE": "Leave Channel",
-        "CHANNEL_DESC": "Change the channel where the leave messages are logged in"
+        "CHANNEL_TITLE": "روم الخروج",
+        "CHANNEL_DESC": "تغير الروم التي يكتب فيها رسائل الخروج"
       },
       "placeholders": {
         "both": {
-          "TITLE": "● For join and leave messages",
+          "TITLE": "● لرسائل الدخول والخروج",
           "items": {
-            "MEMBERNAME": "The discord username of the member.",
-            "MEMBERID": "The discord ID of the member.",
-            "MEMBERFULLNAME": "The username and discriminator of the member.",
-            "MEMBERMENTION": "The mention of the member (they will be pinged).",
-            "MEMBERIMAGE": "URL of the member's avatar.",
-            "MEMBERCREATEDDATE": "Date the discord user account was created.",
-            "MEMBERCREATEDDURATION": "Duration since the discord user account was created.",
-            "MEMBERCREATEDSINCE": "Time the discord user account was created.",
-            "INVITECOUNT": "Gives the invites count of the inviter.",
-            "INVITERNAME": "The discord username of the inviter.",
-            "INVITERID": "The discord ID of the inviter.",
-            "INVITERMENTION": "The mention of the inviter (user will be pinged).",
-            "INVITERFULLNAME": "The username and discriminator of the inviter.",
-            "GUILDMEMBERCOUNT": "Number of members your server has in total.",
-            "GUILDNAME": "Gives the current name of the server.",
-            "GUILDICON": "URL of the server's icon."
+            "MEMBERNAME": "اسم الشخص (لقبه)على الديكسورد.",
+            "MEMBERID": "ايدي الشخص.",
+            "MEMBERFULLNAME": "اسم الشخص والتاق الخاص به على الديسكورد.",
+            "MEMBERMENTION": "منشن الشخص (سيتم منشنته).",
+            "MEMBERIMAGE": ". رابط صورة الشخص",
+            "MEMBERCREATEDDATE": "تاريخ انشاء الحساب الخاص بالديسكورد.",
+            "MEMBERCREATEDDURATION": ".عُمر الحساب منذ انشاءه",
+            "MEMBERCREATEDSINCE": "وقت انشاء الحساب.",
+            "INVITECOUNT": "يعطيي عدد دعوات الداعي.",
+            "INVITERNAME": "اسم الديسكورد الخاص بالداعي.",
+            "INVITERID": "ايدي الديسكورد الخاص بالداعي.",
+            "INVITERMENTION": "منشن الداعي (سيتم منشنته).",
+            "INVITERFULLNAME": "اسم الداعي والتاق الخاص به على الديسكورد.",
+            "GUILDMEMBERCOUNT": "عدد الأعضاء الموجودين في السيرفرالخاص بك.",
+            "GUILDNAME": "يعطيك الاسم الصحيح الخاص بالسيرفر.",
+            "GUILDICON": "رابط صورة السيرفر."
           }
         },
-        "DESC": "Placeholders",
-        "TABLE_EXAMPLE": "Example",
-        "TABLE_DESC": "Description",
+        "DESC": "ملاحظات",
+        "TABLE_EXAMPLE": "امثلة",
+        "TABLE_DESC": "الشرح",
         "joinOnly": {
           "items": {
-            "INVITERIMAGE": "URL of the inviter's avatar."
+            "INVITERIMAGE": "رابط صورة الداعي."
           },
-          "TITLE": "● For join only messages"
+          "TITLE": "● لرسائل الدخول فقط"
         }
       }
     },
-    "SERVERINFOS": "{{memberCount}} Members | {{channelCount}} Channels",
+    "SERVERINFOS": "{{memberCount}} الاعضاء | {{channelCount}} الرومات",
     "commands": {
       "permissions": {
-        "NOTE": "Note: User permissions override role permissions.",
-        "TITLE": "Manage commands permissions",
-        "DESC": "Assign the permissions you want to the corresponding commands.",
+        "NOTE": "ملاحظة: صلاحيات الشخص تتجاوز  صلاحيات الرتبة.",
+        "TITLE": "تغيير صلاحيات الأوامر",
+        "DESC": "قم بتعيين الصلاحيات التي تريدها للأوامر التالية..",
         "add": {
           "types": {
-            "TYPE": "Type",
-            "ROLE": "Role",
-            "USER": "User"
+            "TYPE": "النوع",
+            "ROLE": "رتبة",
+            "USER": "مستخدم"
           },
           "action": {
-            "ACTION": "Action",
-            "ALLOW": "Allow",
-            "DISALLOW": "Disallow"
+            "ACTION": "الإجراء",
+            "ALLOW": "السماح",
+            "DISALLOW": "عدم السماح"
           },
           "button": {
-            "PERMADD": "Add permission",
-            "PERMADDED": "Added permission !"
+            "PERMADD": "اضافة صلاحية",
+            "PERMADDED": "تم اضافة الصلاحية !"
           }
         },
         "roles": {
-          "NONE": "There are currently no custom permissions set for roles.",
+          "NONE": "لا توجد حاليًا صلاحيات مخصصة معينة للرتب..",
           "TITLE": "Roles"
         },
         "users": {
-          "NONE": "There are currently no custom permissions set for users.",
-          "TITLE": "Users",
-          "ID": "ID"
+          "NONE": "لا توجد حاليا أية صلاحيات مخصصة معينة للمستخدمين..",
+          "TITLE": "المستخدمين",
+          "ID": "اسم المستخدم"
         },
-        "COMMAND": "Command"
+        "COMMAND": "الأمر"
       },
       "state": {
-        "TITLE": "Commands behavior",
-        "DESC": "When a user runs a command, do you want their message to disappear or to stay ?",
+        "TITLE": "اجراءات متعلقة بالأوامر",
+        "DESC": "عندما الشخص يقوم بتشغيل امر, هل تريد ان تخفتي رسائله ام تبقى ؟",
         "states": {
-          "STAY": "Stay",
-          "DISAPPEAR": "Disappear"
+          "STAY": "بقاء",
+          "DISAPPEAR": "تختفي"
         }
       },
       "errors": {
-        "WRONGCMD": "Please select a valid command!",
-        "WRONGTYPE": "Please select a valid type!",
-        "WRONGROLE": "Please select a role!",
-        "WRONGACTION": "Please select a valid action!",
-        "WRONGUSER": "Please select a valid user!"
+        "WRONGCMD": "الرجاء اختيار امر موجود!",
+        "WRONGTYPE": الرجاء اختيار نوع موجود !",
+        "WRONGROLE": "الرجاء اختيار رتبة a role!",
+        "WRONGACTION": "الرجاء اختيار اجراء موجود !",
+        "WRONGUSER": "الرجاء اختيار مستخدم موجود !"
       }
     }
   },
   "misc": {
     "buttons": {
-      "UPDATE": "Update",
-      "UPDATED": "Updated !"
+      "UPDATE": "تحديث",
+      "UPDATED": "محدث !"
     }
   },
   "lang": {
-    "TITLE": "Dashboard language",
-    "DESC": "Change the current dashboard <strong>language</strong>.",
-    "SELECT": "Select",
-    "STUCKMSG": " Stuck on this page ? <a href=\"/logout\">Logout</a> and login again."
+    "TITLE": "لغة لوحة التحكم",
+    "DESC": "تغير اللغة  <strong>اللغة</strong>.",
+    "SELECT": "اختار",
+    "STUCKMSG": " هل انت عالق في هذه الصفحة ? <a href=\"/logout\">تسجيل خروج</a> تسجيل دخول مرة اخرى."
   },
   "status": {
     "shards": {
-      "TITLE": "Shards status",
-      "NOTRESPONDING": "Not responding since",
-      "NOYGGDRASIL": "Yggdrasil not connected :/"
+      "TITLE": "حالة القطاع",
+      "NOTRESPONDING": "لا يستجيب حاليا",
+      "NOYGGDRASIL": "Yggdrasil غير متصل :/"
     },
     "watchbot": {
-      "TITLE": "Watchbot monitoring",
-      "BUTTON": "View status page !"
+      "TITLE": "مراقبة Watchbot",
+      "BUTTON": "عرض صفحة الحالة !"
     },
     "incidents": {
-      "VIEWINCIDENTS": "View incidents",
-      "TITLE": "Services status"
+      "VIEWINCIDENTS": "عرض الأحداث",
+      "TITLE": "حالة الخدمات"
     }
   },
   "main": {
-    "SLOGAN": "The best way to manage your discord server's invites.",
+    "SLOGAN": "أفضل طريقة لإدارة سيرفرات الخاصة بالدعوات.",
     "regular": {
-      "DESC": "<i>What's InviteLogger?</i><br>InviteLogger is a discord bot that tracks every invites from your discord server. It's code is 100% custom and is not a self-hosted version of Invite Manager (contrary to InviteLogger Classic). InviteLogger <strong>is</strong> and <strong>will</strong> remain stable. It also has a dashboard to make the config easier.",
-      "ADD": "Add the new InviteLogger to your server!"
+      "DESC": "<i>ماهو InviteLogger?</i><br>InviteLogger:Invite Manager هو عبارة عن بوت يقوم بعد كل دعوة في سيرفرك الخاص. الكود 100%  مكتوب من المالك الخاص بالبوت و ليس عبارة عن نسخة من (عكس InviteLogger Classic). InviteLogger <strong>هو</strong> و <strong>سوف</strong> يبقى مستقر. وأيضا لديه لوحة تحكم لجعل عملية اللاستخدام اسهل .",
+      "ADD": " الجديد لسيرفرك الخاص InviteLogger قم باضافة !"
     },
     "classic": {
-      "DESC": "<i>Do you want a bot similar to InviteManager?</i><br>InviteLogger Classic is a discord bot forked from <a class=\"hypertext\" href=\"https://github.com/chaun14/invite-manager-bot\" target=\"_blank\">InviteManager</a> which tracks invites, gives ranks, creates reaction roles, moderates your server and much more! Check it's <a class=\"hypertext\" href=\"https://classic.invitelogger.me/references/commands#overview\" target=\"_blank\">commands list</a> or it's <a class=\"hypertext\" href=\"https://classic.invitelogger.me/\" target=\"_blank\">documentation</a>.",
-      "ADD": "Add Invitelogger classic to your server!"
+      "DESC": "<i>؟ InviteManagerهل تريد بوت شبيه لـ  </i><br>InviteLogger Classic  هو عبارة عن بوت من نوع   <a class=\"hypertext\" href=\"https://github.com/chaun14/invite-manager-bot\" target=\"_blank\">InviteManager</a> الذي يقوم بعد الدعوات ,يعطي رتب ,انشاء رتب رياكشن ,حماية السيرقر والمزيد!  تحقق منه <a class=\"hypertext\" href=\"https://classic.invitelogger.me/references/commands#overview\" target=\"_blank\">commands قائمة</a> او هنا <a class=\"hypertext\" href=\"https://classic.invitelogger.me/\" target=\"_blank\">documentation</a>.",
+      "ADD": " لسيرفرك الخاص InviteLogger classic قم باضافة!"
     },
-    "SUPPORTSRV": "A problem ? Visit our support server!"
+    "SUPPORTSRV": "لديك مشكلة ؟ قم بزيارة سيرفر الدعم !"
   }
 }
