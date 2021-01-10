@@ -1,8 +1,8 @@
 {
   "guilds": {
     "SELECTGUILDCONFIG": "Başlamak için bir sunucu seç:",
-    "WELCOMEUSER": "Hoşgeldin {{user}} !",
-    "ADDMETHERE": "Botu bu sunucuya ekle:",
+    "WELCOMEUSER": "Hoşgeldin {{user}}!",
+    "ADDMETHERE": "Botu bu sunuculara ekle:",
     "NOSERVTOCONFIG": "Opss, ayarlama yapabilceğin hiçbir sunucu bulunmuyor :(",
     "NOSERVTOADD": "Opss, botu ekleyebilceğin hiçbir sunucu bulunmuyor :("
   },
@@ -23,10 +23,10 @@
     "invites": {
       "join": {
         "MESSAGE_TITLE": "Giriş Mesajı",
-        "MESSAGE_DESC": "Giriş mesajını ne olarak ayarlamak istersin?",
+        "MESSAGE_DESC": "Giriş mesajını ayarlamaya ne dersin?",
         "messages": {
           "HIMSELF_TITLE": "Kendini davet eden mesajı",
-          "NORMAL_TITLE": "Normal davet mesajı",
+          "NORMAL_TITLE": "Normal mesaj",
           "UNKNOWN_TITLE": "Bilinmeyen davetçi mesajı",
           "VANITY_TITLE": "Özel davet linkinden giren mesajı",
           "NORMAL_DESC": "Kullanıcı bir başkası tarafından davet edildiğinde.",
@@ -40,9 +40,9 @@
       "DOWNNOTE": "Varsayılan ayarı yapmak için boş bırakın.",
       "leave": {
         "MESSAGE_TITLE": "Ayrılma Mesajı",
-        "MESSAGE_DESC": "Ayrılma mesajını ne olarak ayarlamak istersin?",
+        "MESSAGE_DESC": "Ayrılma mesajını ayarlamaya ne dersin?",
         "messages": {
-          "NORMAL_TITLE": "Normal davet mesajı",
+          "NORMAL_TITLE": "Normal mesaj",
           "UNKNOWN_TITLE": "Bilinmeyen davetçi mesajı",
           "VANITY_TITLE": "Özel davet linkinden giren mesajı",
           "NORMAL_DESC": "Kullanıcı bir başkası tarafından davet edilip, sunucudan ayrıldığında.",
