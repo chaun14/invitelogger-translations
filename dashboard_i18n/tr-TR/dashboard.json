@@ -169,7 +169,7 @@
       "ADD": "Yeni InviteLogger'ı Sunucuna Ekle!"
     },
     "classic": {
-      "DESC": "<i>InviteManager ile benzer bir bot ister misin?</i><br>InviteLogger Classic, <a class=\"hypertext\" href=\"https://github.com/chaun14/invite-manager-bot\" target=\"_blank\">InviteManager</a> gibi davetleri sayar, rütbe verir, emoji rol yapabilir ve sunucunu moderasyon etmek gibi daha fazla şeyi yapabilir! Botun <a class=\"hypertext\" href=\"https://classic.invitelogger.me/references/commands#overview\" target=\"_blank\">tüm komutları</a>'na ve <a class=\"hypertext\" href=\"https://classic.invitelogger.me/\" target=\"_blank\">dökümanları</a>.'na göz atabilirsin",
+      "DESC": "<i>InviteManager ile benzer bir bot ister misin?</i><br>InviteLogger Classic; <a class=\"hypertext\" href=\"https://github.com/chaun14/invite-manager-bot\" target=\"_blank\">InviteManager</a> gibi davetleri sayar, rütbe verir, emoji rol yapabilir ve sunucunu moderasyon etmek gibi daha fazla şeyi yapabilir! Botun <a class=\"hypertext\" href=\"https://classic.invitelogger.me/references/commands#overview\" target=\"_blank\">tüm komutları</a>'na ve <a class=\"hypertext\" href=\"https://classic.invitelogger.me/\" target=\"_blank\">dökümanları</a>.'na göz atabilirsin",
       "ADD": "Invitelogger classic'i Sunucuna Ekke!"
     },
     "SUPPORTSRV": "Anlamadığın bir yer veya sorunun mu var? Destek sunucusuna katıl!"
