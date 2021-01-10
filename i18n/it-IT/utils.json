@@ -8,7 +8,7 @@
   "HELPSPECIFIC_ALIASES": "Command's aliases ({{count}}) :",
   "HELPSPECIFIC_SYNTAX": "Command's syntax :",
   "HELPDESC": "List all bot's commands.",
-  "BOTINFOS_DESCRIPTION": "The bot has `{{members}}` members spread across `{{guilds}}` guilds.\n\n**__System informations__**\nRam: `{{usedRam}}MB` / `{{totalRam}}MB`\nProcessor: {{proc}} (used at `{{procUsage}}%`)",
+  "BOTINFOS_DESCRIPTION": "This shard (`{{shardId}}`) has `{{members}}` cached members spread across `{{guilds}}` guilds.\n\n**__System informations__**\nRam: `{{usedRam}}MB` / `{{totalRam}}MB`\nProcessor: {{proc}} (used at `{{procUsage}}%`)\n\n**Shard status:** https://invitelogger.me/status\n**Ongoing incidents:** https://incidents.invitelogger.me/\n**Monitor:** https://status.invitelogger.me/",
   "BOTINFOS_CMDDESC": "Show informations about the bot.",
   "BOTINFOS_SHARDINFOS": "Servers: `{{guildSize}}`\nRam: `{{ramUsed}}MB`\nPing: `{{ping}}ms`",
   "HELPLINKS_LINKS": "Add me ! [[here]]({{inviteLink}})\nMy dashboard ! [[here]]({{dashboardLink}})\nSupport server [[join us]](https://discord.gg/vyQvDKVg7d)\nSupport us ! [[thanks]](https://paypal.me/chaun14)",

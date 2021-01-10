@@ -8,7 +8,7 @@
   "HELPSPECIFIC_ALIASES": "Псевдоними на командата ({{count}}) :",
   "HELPSPECIFIC_SYNTAX": "Синтаксис на команда:",
   "HELPDESC": "Списък на всички команди на бота.",
-  "BOTINFOS_DESCRIPTION": "Ботът има `{{members}}` членове, разпределени в `{{guilds}}` сървъра.\n\n**__System informations__**\nRAM: `{{usedRam}}MB` / `{{totalRam}}MB`\nПроцесор: {{proc}} (използват се `{{procUsage}}%`)",
+  "BOTINFOS_DESCRIPTION": "This shard (`{{shardId}}`) has `{{members}}` cached members spread across `{{guilds}}` guilds.\n\n**__System informations__**\nRam: `{{usedRam}}MB` / `{{totalRam}}MB`\nProcessor: {{proc}} (used at `{{procUsage}}%`)\n\n**Shard status:** https://invitelogger.me/status\n**Ongoing incidents:** https://incidents.invitelogger.me/\n**Monitor:** https://status.invitelogger.me/",
   "BOTINFOS_CMDDESC": "Показване на информация за бота.",
   "BOTINFOS_SHARDINFOS": "Сървъри: `{{guildSize}}`\nRAM: `{{ramUsed}}MB`\nPing: `{{ping}}ms`",
   "HELPLINKS_LINKS": "Добави ме! [[Кликни тук]]({{inviteLink}})\nМоят Dashboard! [[Кликни тук]]({{dashboardLink}})\nSupport server [[join us]]({{https://discord.gg/vyQvDKVg7d}})\nSupport us ! [[thanks]({{https://paypal.me/chaun14}})",

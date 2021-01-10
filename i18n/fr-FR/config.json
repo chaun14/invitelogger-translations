@@ -23,5 +23,29 @@
   "SETPERMS_FORBIDDENCMD": "❌ Désolé, vous ne pouvez pas changer les permissions de cette commande pour des raisons de sécurité.",
   "SETFAKETHRESHOLD_OVER": "❌ __**Âge donné invalide**__\n\nLe nombre de jours depuis la création d'un compte doit être compris entre 1 et 1000.",
   "SETFAKETHRESHOLD_OK": "✅ Le seuil pour l'âge minimum du compte a bien été défini à `{{count}}` jours en `{{time}}`ms.",
-  "SETFAKETHRESHOLD_DESC": "Fixer le nombre de jour minimum depuis la création du compte de l'utilisateur qui vient de rejoindre. Si leur compte a été créé avant le nombre de jours fixé, l'invitation sera comptée comme fausse."
+  "SETFAKETHRESHOLD_DESC": "Fixer le nombre de jour minimum depuis la création du compte de l'utilisateur qui vient de rejoindre. Si leur compte a été créé avant le nombre de jours fixé, l'invitation sera comptée comme fausse.",
+  "rankConfig": {
+    "interactive": {
+      "MAIN": "**Configure rank reward system:**\n\n1️⃣ `Ranks assignment style :` \n*Select if the bot will give only the highest rank or if it needs to stack them.*\n**Current value**: `{{assignmentVal}}`\n\n2️⃣ `Rank's keep style :`\n*Select if the bot will remove given ranks when members fall below the required invites amount or if they will keep their ranks indefinitely*\n**Current value**: `{{keepVal}}`",
+      "keys": {
+        "assignment": {
+          "HIGHEST": "Le plus haut",
+          "STACKED": "Additionés",
+          "MAIN": "__**Select ranks assignment style: **__\n*Config how role ranks will be given*\n\nCurrent setting: `{{assignmentVal}}`\n\n🥇 - Set it to the **highest** rank only.\n📚 - **Stack** all reached ranks.\n❌ - Back to main menu.",
+          "OK": "✅ The ranks assignment style has been successfully set from `{{oldVal}}` to `{{newVal}}`.",
+          "ALREADY": "❌ The ranks assignment style is already set to `{{oldVal}}`"
+        },
+        "keep": {
+          "DYNAMIC": "Dynamiquement",
+          "WIN": "Gagnés",
+          "MAIN": "__**Select rank's keep style: **__\n*Config how role ranks will be removed*\n\nCurrent setting: `{{oldVal}}`\n\n🔁 -  Remove ranks **dynamically** when users loose invites.\n🏆 - Once a role is **win**, it won't be removed.\n❌ - Back to main menu.",
+          "ALREADY": "❌ The rank's keep style is already set to `{{oldVal}}`",
+          "OK": "✅ The rank's keep style has been successfully set from `{{oldVal}}` to `{{newVal}}`."
+        }
+      },
+      "CANCELED": "Ranks config canceled.\n\nType `{{prefix}}rankConfig` to restart.",
+      "LOADING": "Chargement..."
+    },
+    "DESC": "Manage ranks giving / removal."
+  }
 }
