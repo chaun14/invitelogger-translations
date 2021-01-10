@@ -1,0 +1,177 @@
+{
+  "guilds": {
+    "SELECTGUILDCONFIG": "Sélectionnez un serveur à configurer:",
+    "WELCOMEUSER": "Bonjour {{user}} !",
+    "ADDMETHERE": "Ajoutez moi ici:",
+    "NOSERVTOCONFIG": "Désolé, vous n'avez aucun serveur à configurer :(",
+    "NOSERVTOADD": "Désolé, il n'y a aucun serveur sur lequel vous pouvez m'ajouter :("
+  },
+  "server": {
+    "sidebar": {
+      "TITLE": "Paramètres",
+      "INVITES": "Invitations",
+      "COMMANDS": "Commandes",
+      "MAIN": "Divers",
+      "RANKS": "Rangs"
+    },
+    "main": {
+      "PREFIXTITLE": "Préfixe",
+      "PREFIXDESC": "Change le <strong>préfixe</strong> du bot.",
+      "LANGTITLE": "Langue",
+      "LANGDESC": "Change la <strong>langue</strong> du bot."
+    },
+    "invites": {
+      "join": {
+        "MESSAGE_TITLE": "Messages d'arrivées",
+        "MESSAGE_DESC": "Quel message d'arrivée voulez-vous modifier?",
+        "messages": {
+          "HIMSELF_TITLE": "Invité lui-même",
+          "NORMAL_TITLE": "Arrivée normale",
+          "UNKNOWN_TITLE": "Inviteur inconnu",
+          "VANITY_TITLE": "Invitation personnalisée",
+          "NORMAL_DESC": "Quand un utilisateur est invité par quelqu'un d'autre.",
+          "HIMSELF_DESC": "Quand un utilisateur s'invite lui-même sur votre serveur.",
+          "UNKNOWN_DESC": "Quand un utilisateur rejoint mais que je suis incapable de dire qui l'a invité.",
+          "VANITY_DESC": "Quand un utilisateur est invité avec un code d'invitation personnalisé."
+        },
+        "CHANNEL_TITLE": "Salon des messages d'arrivées",
+        "CHANNEL_DESC": "Changez le salon où les messages d'arrivées sont envoyés."
+      },
+      "DOWNNOTE": "Le champ doit être vide pour réinitialiser le message à sa valeur par défaut.",
+      "leave": {
+        "MESSAGE_TITLE": "Messages de départ",
+        "MESSAGE_DESC": "Quel message de départ voulez-vous modifier?",
+        "messages": {
+          "NORMAL_TITLE": "Départ normal",
+          "UNKNOWN_TITLE": "Inviteur inconnu",
+          "VANITY_TITLE": "Invitation personnalisée",
+          "NORMAL_DESC": "Quand un utilisateur part et a été invité par quelqu'un d'autre.",
+          "UNKNOWN_DESC": "Quand un utilisateur part mais que je suis incapable de dire qui l'a invité.",
+          "VANITY_DESC": "Quand un utilisateur invité avec un code d'invitation personnalisé part."
+        },
+        "CHANNEL_TITLE": "Salon des messages de départ",
+        "CHANNEL_DESC": "Changez le salon où les messages de départ sont envoyés."
+      },
+      "placeholders": {
+        "both": {
+          "TITLE": "● Pour les messages d'arrivées et de départ",
+          "items": {
+            "MEMBERNAME": "Le pseudo du membre.",
+            "MEMBERID": "L'identifiant du membre.",
+            "MEMBERFULLNAME": "Le pseudo et le tag du membre.",
+            "MEMBERMENTION": "La mention du membre.",
+            "MEMBERIMAGE": "URL de la photo de profil du membre.",
+            "MEMBERCREATEDDATE": "Date à laquelle le compte de l'utilisateur a été créé.",
+            "MEMBERCREATEDDURATION": "Durée entre la date de création du compte de l'utilisateur et maintenant.",
+            "MEMBERCREATEDSINCE": "Durée depuis la création du compte de l'utilisateur.",
+            "INVITECOUNT": "Donne le nombre d'invitations de l'inviteur.",
+            "INVITERNAME": "Le pseudo de l'inviteur.",
+            "INVITERID": "L'identifiant de l'inviteur.",
+            "INVITERMENTION": "La mention de l'inviteur.",
+            "INVITERFULLNAME": "Le pseudo et le tag de l'inviteur.",
+            "GUILDMEMBERCOUNT": "Nombre de membres total de votre serveur.",
+            "GUILDNAME": "Donne le nom actuel du serveur.",
+            "GUILDICON": "URL de l'image du serveur."
+          }
+        },
+        "DESC": "Variable des messages",
+        "TABLE_EXAMPLE": "Exemple",
+        "TABLE_DESC": "Description",
+        "joinOnly": {
+          "items": {
+            "INVITERIMAGE": "URL de la photo de profil de l'inviteur."
+          },
+          "TITLE": "● Pour les messages d'arrivées uniquement"
+        }
+      }
+    },
+    "SERVERINFOS": "{{memberCount}} Membres | {{channelCount}} Salons",
+    "commands": {
+      "permissions": {
+        "NOTE": "Note: Les permissions d'un utilisateur écrasent celles d'un rôle.",
+        "TITLE": "Gérer les permissions des commandes",
+        "DESC": "Assignez les permissions que vous souhaitez sur les différentes commandes.",
+        "add": {
+          "types": {
+            "TYPE": "Type",
+            "ROLE": "Rôle",
+            "USER": "Utilisateur"
+          },
+          "action": {
+            "ACTION": "Action",
+            "ALLOW": "Autoriser",
+            "DISALLOW": "Interdire"
+          },
+          "button": {
+            "PERMADD": "Ajouter la permission",
+            "PERMADDED": "Permission ajoutée !"
+          }
+        },
+        "roles": {
+          "NONE": "Aucune permission personnalisée définie pour les rôles.",
+          "TITLE": "Rôles"
+        },
+        "users": {
+          "NONE": "Aucune permission personnalisée définie pour les utilisateurs.",
+          "TITLE": "Utilisateurs",
+          "ID": "Identifiant"
+        },
+        "COMMAND": "Commande"
+      },
+      "state": {
+        "TITLE": "Comportement des commandes",
+        "DESC": "Quand un utilisateur exécute une commande, voulez-vous que le message contenant la commande disparaisse ou reste ?",
+        "states": {
+          "STAY": "Reste",
+          "DISAPPEAR": "Disparaisse"
+        }
+      },
+      "errors": {
+        "WRONGCMD": "Veuillez sélectionner une commande valide!",
+        "WRONGTYPE": "Veuillez sélectionner un type valide!",
+        "WRONGROLE": "Veuillez sélectionner un rôle valide!",
+        "WRONGACTION": "Veuillez sélectionner une action valide!",
+        "WRONGUSER": "Veuillez sélectionner un utilisateur valide!"
+      }
+    }
+  },
+  "misc": {
+    "buttons": {
+      "UPDATE": "Mettre à jour",
+      "UPDATED": "Mis à jour !"
+    }
+  },
+  "lang": {
+    "TITLE": "Langue du panneau de contrôle",
+    "DESC": "Changer la <strong>langue</strong> actuelle du panel.",
+    "SELECT": "Choisir",
+    "STUCKMSG": "Coincé sur cette page ? <a href=\"/logout\">Déconnectez-vous</a> puis reconnectez vous ensuite."
+  },
+  "status": {
+    "shards": {
+      "TITLE": "Status des shards (fragments)",
+      "NOTRESPONDING": "Ne répond pas depuis",
+      "NOYGGDRASIL": "Yggdrasil non connecté :/"
+    },
+    "watchbot": {
+      "TITLE": "Surveillance par Watchbot",
+      "BUTTON": "Voir la page de status !"
+    },
+    "incidents": {
+      "VIEWINCIDENTS": "Voir les incidents",
+      "TITLE": "Statut des services"
+    }
+  },
+  "main": {
+    "SLOGAN": "Le meilleur moyen de gérer les invitations de vôtre serveur discord.",
+    "regular": {
+      "DESC": "<i>Qu'est ce qu'InviteLogger ?</i><br>InviteLogger est un bot discord qui traque toutes les invitations de votre serveur discord. Son code est 100% custom et il n'est pas une version hébergée du code d'InviteManager (contrairement à InviteLogger classic). InviteLogger <strong>est</strong> et <strong>restera</strong> stable. Il possède aussi un panneau de contrôle pour faciliter la configuration.",
+      "ADD": "Ajoutez le nouvel InviteLogger sur votre serveur!"
+    },
+    "classic": {
+      "DESC": "<i>Vous voulez un bot similaire à InviteManager?</i><br>InviteLogger Classic est un bot discord dérivé de <a class=\"hypertext\" href=\"https://github.com/chaun14/invite-manager-bot\" target=\"_blank\">InviteManager</a> qui traque les invitations, donne des rôles, créé des réaction-roles, modère votre serveur et plein de choses encore ! Allez voir ses <a class=\"hypertext\" href=\"https://classic.invitelogger.me/references/commands#overview\" target=\"_blank\">commandes</a> ou bien sa <a class=\"hypertext\" href=\"https://classic.invitelogger.me/v/francais/\" target=\"_blank\">documentation</a>.",
+      "ADD": "Ajoutez InviteLogger classic sur votre serveur!"
+    },
+    "SUPPORTSRV": "Un problème ? Visitez notre serveur de support!"
+  }
+}

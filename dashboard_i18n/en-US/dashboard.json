@@ -1,0 +1,177 @@
+{
+  "guilds": {
+    "SELECTGUILDCONFIG": "Select a server to configure:",
+    "WELCOMEUSER": "Hi {{user}} !",
+    "ADDMETHERE": "Add me here:",
+    "NOSERVTOCONFIG": "Sorry, you cannot configure any servers :(",
+    "NOSERVTOADD": "Sorry, you currently have no servers where you can add me :("
+  },
+  "server": {
+    "sidebar": {
+      "TITLE": "Settings",
+      "INVITES": "Invites",
+      "COMMANDS": "Commands",
+      "MAIN": "Miscellaneous",
+      "RANKS": "Ranks"
+    },
+    "main": {
+      "PREFIXTITLE": "Prefix",
+      "PREFIXDESC": "Change the current <strong>prefix</strong>.",
+      "LANGTITLE": "Language",
+      "LANGDESC": "Change the current <strong>language</strong>."
+    },
+    "invites": {
+      "join": {
+        "MESSAGE_TITLE": "Join Messages",
+        "MESSAGE_DESC": "What join message do you want to modify?",
+        "messages": {
+          "HIMSELF_TITLE": "Invited himself",
+          "NORMAL_TITLE": "Normal join",
+          "UNKNOWN_TITLE": "Unknown inviter",
+          "VANITY_TITLE": "Vanity invite",
+          "NORMAL_DESC": "When a user is invited by someone else.",
+          "HIMSELF_DESC": "When a user invites himself to your server.",
+          "UNKNOWN_DESC": "When a user joins but I can't tell who invited them.",
+          "VANITY_DESC": "When a user is invited with a custom code."
+        },
+        "CHANNEL_TITLE": "Join Channel",
+        "CHANNEL_DESC": "Change the channel where the join messages are logged in."
+      },
+      "DOWNNOTE": "The field must be empty in order to reset the message to it's default value.",
+      "leave": {
+        "MESSAGE_TITLE": "Leave Messages",
+        "MESSAGE_DESC": "What leave message do you want to modify?",
+        "messages": {
+          "NORMAL_TITLE": "Normal leave",
+          "UNKNOWN_TITLE": "Unknown inviter",
+          "VANITY_TITLE": "Vanity invite",
+          "NORMAL_DESC": "When a user leaves and was invited by someone else.",
+          "UNKNOWN_DESC": "When a user leaves but I can't tell who invited them.",
+          "VANITY_DESC": "When a user leaves and was invited with a custom code."
+        },
+        "CHANNEL_TITLE": "Leave Channel",
+        "CHANNEL_DESC": "Change the channel where the leave messages are logged in"
+      },
+      "placeholders": {
+        "both": {
+          "TITLE": "● For join and leave messages",
+          "items": {
+            "MEMBERNAME": "The discord username of the member.",
+            "MEMBERID": "The discord ID of the member.",
+            "MEMBERFULLNAME": "The username and discriminator of the member.",
+            "MEMBERMENTION": "The mention of the member (they will be pinged).",
+            "MEMBERIMAGE": "URL of the member's avatar.",
+            "MEMBERCREATEDDATE": "Date the discord user account was created.",
+            "MEMBERCREATEDDURATION": "Duration since the discord user account was created.",
+            "MEMBERCREATEDSINCE": "Time the discord user account was created.",
+            "INVITECOUNT": "Gives the invites count of the inviter.",
+            "INVITERNAME": "The discord username of the inviter.",
+            "INVITERID": "The discord ID of the inviter.",
+            "INVITERMENTION": "The mention of the inviter (user will be pinged).",
+            "INVITERFULLNAME": "The username and discriminator of the inviter.",
+            "GUILDMEMBERCOUNT": "Number of members your server has in total.",
+            "GUILDNAME": "Gives the current name of the server.",
+            "GUILDICON": "URL of the server's icon."
+          }
+        },
+        "DESC": "Placeholders",
+        "TABLE_EXAMPLE": "Example",
+        "TABLE_DESC": "Description",
+        "joinOnly": {
+          "items": {
+            "INVITERIMAGE": "URL of the inviter's avatar."
+          },
+          "TITLE": "● For join only messages"
+        }
+      }
+    },
+    "SERVERINFOS": "{{memberCount}} Members | {{channelCount}} Channels",
+    "commands": {
+      "permissions": {
+        "NOTE": "Note: User permissions override role permissions.",
+        "TITLE": "Manage commands permissions",
+        "DESC": "Assign the permissions you want to the corresponding commands.",
+        "add": {
+          "types": {
+            "TYPE": "Type",
+            "ROLE": "Role",
+            "USER": "User"
+          },
+          "action": {
+            "ACTION": "Action",
+            "ALLOW": "Allow",
+            "DISALLOW": "Disallow"
+          },
+          "button": {
+            "PERMADD": "Add permission",
+            "PERMADDED": "Added permission !"
+          }
+        },
+        "roles": {
+          "NONE": "There are currently no custom permissions set for roles.",
+          "TITLE": "Roles"
+        },
+        "users": {
+          "NONE": "There are currently no custom permissions set for users.",
+          "TITLE": "Users",
+          "ID": "ID"
+        },
+        "COMMAND": "Command"
+      },
+      "state": {
+        "TITLE": "Commands behavior",
+        "DESC": "When a user runs a command, do you want their message to disappear or to stay ?",
+        "states": {
+          "STAY": "Stay",
+          "DISAPPEAR": "Disappear"
+        }
+      },
+      "errors": {
+        "WRONGCMD": "Please select a valid command!",
+        "WRONGTYPE": "Please select a valid type!",
+        "WRONGROLE": "Please select a role!",
+        "WRONGACTION": "Please select a valid action!",
+        "WRONGUSER": "Please select a valid user!"
+      }
+    }
+  },
+  "misc": {
+    "buttons": {
+      "UPDATE": "Update",
+      "UPDATED": "Updated !"
+    }
+  },
+  "lang": {
+    "TITLE": "Dashboard language",
+    "DESC": "Change the current dashboard <strong>language</strong>.",
+    "SELECT": "Select",
+    "STUCKMSG": " Stuck on this page ? <a href=\"/logout\">Logout</a> and login again."
+  },
+  "status": {
+    "shards": {
+      "TITLE": "Shards status",
+      "NOTRESPONDING": "Not responding since",
+      "NOYGGDRASIL": "Yggdrasil not connected :/"
+    },
+    "watchbot": {
+      "TITLE": "Watchbot monitoring",
+      "BUTTON": "View status page !"
+    },
+    "incidents": {
+      "VIEWINCIDENTS": "View incidents",
+      "TITLE": "Services status"
+    }
+  },
+  "main": {
+    "SLOGAN": "The best way to manage your discord server's invites.",
+    "regular": {
+      "DESC": "<i>What's InviteLogger?</i><br>InviteLogger is a discord bot that tracks every invites from your discord server. It's code is 100% custom and is not a self-hosted version of Invite Manager (contrary to InviteLogger Classic). InviteLogger <strong>is</strong> and <strong>will</strong> remain stable. It also has a dashboard to make the config easier.",
+      "ADD": "Add the new InviteLogger to your server!"
+    },
+    "classic": {
+      "DESC": "<i>Do you want a bot similar to InviteManager?</i><br>InviteLogger Classic is a discord bot forked from <a class=\"hypertext\" href=\"https://github.com/chaun14/invite-manager-bot\" target=\"_blank\">InviteManager</a> which tracks invites, gives ranks, creates reaction roles, moderates your server and much more! Check it's <a class=\"hypertext\" href=\"https://classic.invitelogger.me/references/commands#overview\" target=\"_blank\">commands list</a> or it's <a class=\"hypertext\" href=\"https://classic.invitelogger.me/\" target=\"_blank\">documentation</a>.",
+      "ADD": "Add Invitelogger classic to your server!"
+    },
+    "SUPPORTSRV": "A problem ? Visit our support server!"
+  }
+}
