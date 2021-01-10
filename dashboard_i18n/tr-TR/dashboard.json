@@ -1,177 +1,177 @@
 {
   "guilds": {
-    "SELECTGUILDCONFIG": "Select a server to configure:",
-    "WELCOMEUSER": "Hi {{user}} !",
-    "ADDMETHERE": "Add me here:",
-    "NOSERVTOCONFIG": "Sorry, you cannot configure any servers :(",
-    "NOSERVTOADD": "Sorry, you currently have no servers where you can add me :("
+    "SELECTGUILDCONFIG": "Başlamak için bir sunucu seç:",
+    "WELCOMEUSER": "Hoşgeldin {{user}}!",
+    "ADDMETHERE": "Botu bu sunuculara ekle:",
+    "NOSERVTOCONFIG": "Opss, ayarlama yapabilceğin hiçbir sunucu bulunmuyor :(",
+    "NOSERVTOADD": "Opss, botu ekleyebilceğin hiçbir sunucu bulunmuyor :("
   },
   "server": {
     "sidebar": {
-      "TITLE": "Settings",
-      "INVITES": "Invites",
-      "COMMANDS": "Commands",
-      "MAIN": "Miscellaneous",
-      "RANKS": "Ranks"
+      "TITLE": "Ayarlar",
+      "INVITES": "Davet Ayarları",
+      "COMMANDS": "Komut Ayarları",
+      "MAIN": "Genel Bot Ayarları",
+      "RANKS": "Rütbeler"
     },
     "main": {
       "PREFIXTITLE": "Prefix",
-      "PREFIXDESC": "Change the current <strong>prefix</strong>.",
-      "LANGTITLE": "Language",
-      "LANGDESC": "Change the current <strong>language</strong>."
+      "PREFIXDESC": "Botun <strong>prefix</strong>'ini değiştir.",
+      "LANGTITLE": "Dil",
+      "LANGDESC": "Botun <strong>dilini</strong> değiştir."
     },
     "invites": {
       "join": {
-        "MESSAGE_TITLE": "Join Messages",
-        "MESSAGE_DESC": "What join message do you want to modify?",
+        "MESSAGE_TITLE": "Giriş Mesajı",
+        "MESSAGE_DESC": "Giriş mesajını ayarlamaya ne dersin?",
         "messages": {
-          "HIMSELF_TITLE": "Invited himself",
-          "NORMAL_TITLE": "Normal join",
-          "UNKNOWN_TITLE": "Unknown inviter",
-          "VANITY_TITLE": "Vanity invite",
-          "NORMAL_DESC": "When a user is invited by someone else.",
-          "HIMSELF_DESC": "When a user invites himself to your server.",
-          "UNKNOWN_DESC": "When a user joins but I can't tell who invited them.",
-          "VANITY_DESC": "When a user is invited with a custom code."
+          "HIMSELF_TITLE": "Kendini davet eden mesajı",
+          "NORMAL_TITLE": "Normal mesaj",
+          "UNKNOWN_TITLE": "Bilinmeyen davetçi mesajı",
+          "VANITY_TITLE": "Özel davet linkinden giren mesajı",
+          "NORMAL_DESC": "Kullanıcı bir başkası tarafından davet edildiğinde.",
+          "HIMSELF_DESC": "Kullanıcı kendi davet linkinden sunucuya girdiğinde.",
+          "UNKNOWN_DESC": "Kullanıcı sunucuya girdiğinde ama davet eden kişi bulunamadığında.",
+          "VANITY_DESC": "Sunucunun 30 takviye veya partnerlik ile alınan davet linkinden girdiğinde."
         },
-        "CHANNEL_TITLE": "Join Channel",
-        "CHANNEL_DESC": "Change the channel where the join messages are logged in."
+        "CHANNEL_TITLE": "Giriş Kanalı",
+        "CHANNEL_DESC": "Giriş mesajının atılmasını istediğin kanalı ayarla."
       },
-      "DOWNNOTE": "The field must be empty in order to reset the message to it's default value.",
+      "DOWNNOTE": "Varsayılan ayarı yapmak için boş bırakın.",
       "leave": {
-        "MESSAGE_TITLE": "Leave Messages",
-        "MESSAGE_DESC": "What leave message do you want to modify?",
+        "MESSAGE_TITLE": "Ayrılma Mesajı",
+        "MESSAGE_DESC": "Ayrılma mesajını ayarlamaya ne dersin?",
         "messages": {
-          "NORMAL_TITLE": "Normal leave",
-          "UNKNOWN_TITLE": "Unknown inviter",
-          "VANITY_TITLE": "Vanity invite",
-          "NORMAL_DESC": "When a user leaves and was invited by someone else.",
-          "UNKNOWN_DESC": "When a user leaves but I can't tell who invited them.",
-          "VANITY_DESC": "When a user leaves and was invited with a custom code."
+          "NORMAL_TITLE": "Normal mesaj",
+          "UNKNOWN_TITLE": "Bilinmeyen davetçi mesajı",
+          "VANITY_TITLE": "Özel davet linkinden giren mesajı",
+          "NORMAL_DESC": "Kullanıcı bir başkası tarafından davet edilip, sunucudan ayrıldığında.",
+          "UNKNOWN_DESC": "Kullanıcı sunucudan ayrıldığında ama davet eden kişi bulunamadığında.",
+          "VANITY_DESC": "Sunucunun 30 takviye veya partnerlik ile alınan davet linkinden girip, sunucudan ayrıldığında."
         },
-        "CHANNEL_TITLE": "Leave Channel",
-        "CHANNEL_DESC": "Change the channel where the leave messages are logged in"
+        "CHANNEL_TITLE": "Ayrılma Kanalı",
+        "CHANNEL_DESC": "Ayrılma mesajının atılmasını istediğin kanalı ayarla."
       },
       "placeholders": {
         "both": {
-          "TITLE": "● For join and leave messages",
+          "TITLE": "● Hem giriş, hem ayrılma mesajı için",
           "items": {
-            "MEMBERNAME": "The discord username of the member.",
-            "MEMBERID": "The discord ID of the member.",
-            "MEMBERFULLNAME": "The username and discriminator of the member.",
-            "MEMBERMENTION": "The mention of the member (they will be pinged).",
-            "MEMBERIMAGE": "URL of the member's avatar.",
-            "MEMBERCREATEDDATE": "Date the discord user account was created.",
-            "MEMBERCREATEDDURATION": "Duration since the discord user account was created.",
-            "MEMBERCREATEDSINCE": "Time the discord user account was created.",
-            "INVITECOUNT": "Gives the invites count of the inviter.",
-            "INVITERNAME": "The discord username of the inviter.",
-            "INVITERID": "The discord ID of the inviter.",
-            "INVITERMENTION": "The mention of the inviter (user will be pinged).",
-            "INVITERFULLNAME": "The username and discriminator of the inviter.",
-            "GUILDMEMBERCOUNT": "Number of members your server has in total.",
-            "GUILDNAME": "Gives the current name of the server.",
-            "GUILDICON": "URL of the server's icon."
+            "MEMBERNAME": "Kullanıcının ismi.",
+            "MEMBERID": "Kullanıcının Discord ID'si.",
+            "MEMBERFULLNAME": "Kullanıcının tam ismi (# bölümü dahil).",
+            "MEMBERMENTION": "Kullanıcının etiketi.",
+            "MEMBERIMAGE": "Kullanıcının avatar linki.",
+            "MEMBERCREATEDDATE": "Kullanıcının hesabını oluşturma tarihi.",
+            "MEMBERCREATEDDURATION": "Kullanınıcın hesabının süredir açık olduğunun tarihi.",
+            "MEMBERCREATEDSINCE": "Kullanıcının hesabının ne zaman açıldığının tarihi.",
+            "INVITECOUNT": "Davet eden kişinin davet sayısı.",
+            "INVITERNAME": "Davet eden kişinin ismi.",
+            "INVITERID": "Davet eden kişinin Discord ID'si.",
+            "INVITERMENTION": "Davet eden kişinin etiketi.",
+            "INVITERFULLNAME": "Davet eden kişinin tüm ismi (# bölümü dahil).",
+            "GUILDMEMBERCOUNT": "Sunucudaki kişi sayısı.",
+            "GUILDNAME": "Sunucunun ismi.",
+            "GUILDICON": "Sunucunun fotoğraf linki."
           }
         },
-        "DESC": "Placeholders",
-        "TABLE_EXAMPLE": "Example",
-        "TABLE_DESC": "Description",
+        "DESC": "Değişkenler",
+        "TABLE_EXAMPLE": "Örnek",
+        "TABLE_DESC": "Açıklama",
         "joinOnly": {
           "items": {
-            "INVITERIMAGE": "URL of the inviter's avatar."
+            "INVITERIMAGE": "Davet eden kişinin avatar linki."
           },
-          "TITLE": "● For join only messages"
+          "TITLE": "● Sadece giriş mesajı için"
         }
       }
     },
-    "SERVERINFOS": "{{memberCount}} Members | {{channelCount}} Channels",
+    "SERVERINFOS": "{{memberCount}} Üye | {{channelCount}} Kanal",
     "commands": {
       "permissions": {
-        "NOTE": "Note: User permissions override role permissions.",
-        "TITLE": "Manage commands permissions",
-        "DESC": "Assign the permissions you want to the corresponding commands.",
+        "NOTE": "Not: Kullanıcı için ayarlanan yetkiler, roller için ayarlananı geçersiz kılar.",
+        "TITLE": "Komut yetkilerini ayarla",
+        "DESC": "İstediğiniz komuta kullanıcıların kullanabilmesi veya kullanaması için yetki ayarlayın.",
         "add": {
           "types": {
-            "TYPE": "Type",
-            "ROLE": "Role",
-            "USER": "User"
+            "TYPE": "Ayarlanacak Yetki Türü",
+            "ROLE": "Rol",
+            "USER": "Kullanıcı"
           },
           "action": {
-            "ACTION": "Action",
-            "ALLOW": "Allow",
-            "DISALLOW": "Disallow"
+            "ACTION": "Durum",
+            "ALLOW": "İzin ver",
+            "DISALLOW": "İzin verme"
           },
           "button": {
-            "PERMADD": "Add permission",
-            "PERMADDED": "Added permission !"
+            "PERMADD": "Yetkiyi ekle",
+            "PERMADDED": "Başarıyla eklendi!"
           }
         },
         "roles": {
-          "NONE": "There are currently no custom permissions set for roles.",
-          "TITLE": "Roles"
+          "NONE": "Şu anda roller için ayarlanmış özel bir yetki bulunmamakta.",
+          "TITLE": "Roller"
         },
         "users": {
-          "NONE": "There are currently no custom permissions set for users.",
-          "TITLE": "Users",
+          "NONE": "Şu anda kullanıcılar için ayarlanmış özel bir yetki bulunmamakta.",
+          "TITLE": "Kullanıcılar",
           "ID": "ID"
         },
-        "COMMAND": "Command"
+        "COMMAND": "Komut"
       },
       "state": {
-        "TITLE": "Commands behavior",
-        "DESC": "When a user runs a command, do you want their message to disappear or to stay ?",
+        "TITLE": "Komutun durumu",
+        "DESC": "Kullanıcı bir komutu çalıştırdığında, mesajın silinmesini mi yoksa kalmasını mi istersin?",
         "states": {
-          "STAY": "Stay",
-          "DISAPPEAR": "Disappear"
+          "STAY": "Kalsın",
+          "DISAPPEAR": "Otomatik mesajı silsin"
         }
       },
       "errors": {
-        "WRONGCMD": "Please select a valid command!",
-        "WRONGTYPE": "Please select a valid type!",
-        "WRONGROLE": "Please select a role!",
-        "WRONGACTION": "Please select a valid action!",
-        "WRONGUSER": "Please select a valid user!"
+        "WRONGCMD": "Lütfen geçerli bir komut seç!",
+        "WRONGTYPE": "Lütfen geçerli bir seçenek ekle!",
+        "WRONGROLE": "Lütfen geçerli bir rol seç!",
+        "WRONGACTION": "Lütfen geçerli bir seçenek seç!",
+        "WRONGUSER": "Lütfen geçerli bir kullanıcı seç!"
       }
     }
   },
   "misc": {
     "buttons": {
-      "UPDATE": "Update",
-      "UPDATED": "Updated !"
+      "UPDATE": "Güncelle",
+      "UPDATED": "Güncellendi!"
     }
   },
   "lang": {
-    "TITLE": "Dashboard language",
-    "DESC": "Change the current dashboard <strong>language</strong>.",
-    "SELECT": "Select",
-    "STUCKMSG": " Stuck on this page ? <a href=\"/logout\">Logout</a> and login again."
+    "TITLE": "Dashboard dili",
+    "DESC": "Dashboard <strong>dil</strong>ini değiştir.",
+    "SELECT": "Seç",
+    "STUCKMSG": "Sayfada hata mı oluştu? <a href=\"/çıkış yap\">Logout</a> ve tekrardan giriş yap."
   },
   "status": {
     "shards": {
-      "TITLE": "Shards status",
-      "NOTRESPONDING": "Not responding since",
-      "NOYGGDRASIL": "Yggdrasil not connected :/"
+      "TITLE": "Shard'ların durumu",
+      "NOTRESPONDING": "Şu tarihten beri aktif değil",
+      "NOYGGDRASIL": "Yggdrasil bağlanamadı :/"
     },
     "watchbot": {
-      "TITLE": "Watchbot monitoring",
-      "BUTTON": "View status page !"
+      "TITLE": "Watchbot sayfası.",
+      "BUTTON": "Durum sayfasına göz at."
     },
     "incidents": {
-      "VIEWINCIDENTS": "View incidents",
-      "TITLE": "Services status"
+      "VIEWINCIDENTS": "Son olaylara göz at.",
+      "TITLE": "Servis durumu."
     }
   },
   "main": {
-    "SLOGAN": "The best way to manage your discord server's invites.",
+    "SLOGAN": "Discord sunucunuzunun davetlerini yönetmek için en iyi yol.",
     "regular": {
-      "DESC": "<i>What's InviteLogger?</i><br>InviteLogger is a discord bot that tracks every invites from your discord server. It's code is 100% custom and is not a self-hosted version of Invite Manager (contrary to InviteLogger Classic). InviteLogger <strong>is</strong> and <strong>will</strong> remain stable. It also has a dashboard to make the config easier.",
-      "ADD": "Add the new InviteLogger to your server!"
+      "DESC": "<i>InviteLogger nedir?</i><br>InviteLogger discord sunucunuza gelen her daveti izleyen bir bottur. Kodu 100% özel olarak botun sahibi tarafından yazılmış olup, Invite Manager'ın kodundan oluşmamaktadır (InviteLogger Classic gibi). Ayrıca daha kolay ayarlanabilmesi için bir dashboard'a sahip.",
+      "ADD": "Yeni InviteLogger'ı Sunucuna Ekle!"
     },
     "classic": {
-      "DESC": "<i>Do you want a bot similar to InviteManager?</i><br>InviteLogger Classic is a discord bot forked from <a class=\"hypertext\" href=\"https://github.com/chaun14/invite-manager-bot\" target=\"_blank\">InviteManager</a> which tracks invites, gives ranks, creates reaction roles, moderates your server and much more! Check it's <a class=\"hypertext\" href=\"https://classic.invitelogger.me/references/commands#overview\" target=\"_blank\">commands list</a> or it's <a class=\"hypertext\" href=\"https://classic.invitelogger.me/\" target=\"_blank\">documentation</a>.",
-      "ADD": "Add Invitelogger classic to your server!"
+      "DESC": "<i>InviteManager ile benzer bir bot ister misin?</i><br>InviteLogger Classic; <a class=\"hypertext\" href=\"https://github.com/chaun14/invite-manager-bot\" target=\"_blank\">InviteManager</a> gibi davetleri sayar, rütbe verir, emoji rol yapabilir ve sunucunu moderasyon etmek gibi daha fazla şeyi yapabilir! Botun <a class=\"hypertext\" href=\"https://classic.invitelogger.me/references/commands#overview\" target=\"_blank\">tüm komutları</a>'na ve <a class=\"hypertext\" href=\"https://classic.invitelogger.me/\" target=\"_blank\">dökümanları</a>.'na göz atabilirsin",
+      "ADD": "Invitelogger classic'i Sunucuna Ekke!"
     },
-    "SUPPORTSRV": "A problem ? Visit our support server!"
+    "SUPPORTSRV": "Anlamadığın bir yer veya sorunun mu var? Destek sunucusuna katıl!"
   }
 }
