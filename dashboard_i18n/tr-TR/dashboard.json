@@ -3,8 +3,8 @@
     "SELECTGUILDCONFIG": "Başlamak için bir sunucu seç:",
     "WELCOMEUSER": "Hoşgeldin {{user}} !",
     "ADDMETHERE": "Botu bu sunucuya ekle:",
-    "NOSERVTOCONFIG": "Opss, ayarlama yapabilceğin hiçbir sunucun bulunmuyor :(",
-    "NOSERVTOADD": "Opss, botu ekleyebilceğin hiçbir sunucun bulunmuyor :("
+    "NOSERVTOCONFIG": "Opss, ayarlama yapabilceğin hiçbir sunucu bulunmuyor :(",
+    "NOSERVTOADD": "Opss, botu ekleyebilceğin hiçbir sunucu bulunmuyor :("
   },
   "server": {
     "sidebar": {
