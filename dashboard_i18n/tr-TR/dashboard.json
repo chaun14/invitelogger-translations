@@ -143,9 +143,9 @@
   },
   "lang": {
     "TITLE": "Dashboard dili",
-    "DESC": "Dashboard <strong>dil</strong>ini değiştir.",
+    "DESC": "Dashboard <strong>dilini</strong> değiştir.",
     "SELECT": "Seç",
-    "STUCKMSG": "Sayfada hata mı oluştu? <a href=\"/çıkış yap\">Logout</a> ve tekrardan giriş yap."
+    "STUCKMSG": "Sayfada hata mı oluştu? <a href=\"/logout\">Çıkış yap</a> ve tekrardan giriş yap."
   },
   "status": {
     "shards": {
