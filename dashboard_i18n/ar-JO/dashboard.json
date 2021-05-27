@@ -11,19 +11,19 @@
       "TITLE": "الاعدادات",
       "INVITES": "الدعوات",
       "COMMANDS": "الأوامر",
-      "MAIN": "متنوعة",
+      "MAIN": "المتنوعات",
       "RANKS": "الرتب"
     },
     "main": {
       "PREFIXTITLE": "بادئة البوت",
-      "PREFIXDESC": "تغير <strong>بادئة البوت</strong>.",
+      "PREFIXDESC": "تغيير <strong>بادئة البوت</strong>.",
       "LANGTITLE": "اللغة",
-      "LANGDESC": "تغير <strong>اللغة</strong>."
+      "LANGDESC": "تغيير <strong>اللغة</strong>."
     },
     "invites": {
       "join": {
         "MESSAGE_TITLE": "رسائل الدخول",
-        "MESSAGE_DESC": "ما رسالة الدخول التي تريد تغيرها؟",
+        "MESSAGE_DESC": "ما رسالة الدخول التي تريد تغييرها؟",
         "messages": {
           "HIMSELF_TITLE": "دعا نفسه",
           "NORMAL_TITLE": "دخول معتاد",
@@ -109,7 +109,7 @@
         },
         "roles": {
           "NONE": "لا توجد حاليًا صلاحيات مخصصة معينة للرتب..",
-          "TITLE": "Roles"
+          "TITLE": "الرتب"
         },
         "users": {
           "NONE": "لا توجد حاليا أية صلاحيات مخصصة معينة للمستخدمين..",
@@ -154,7 +154,7 @@
       "NOYGGDRASIL": "Yggdrasil غير متصل :/"
     },
     "watchbot": {
-      "TITLE": "مراقبة Watchbot",
+      "TITLE": "مراقبة الاتصال",
       "BUTTON": "عرض صفحة الحالة !"
     },
     "incidents": {
