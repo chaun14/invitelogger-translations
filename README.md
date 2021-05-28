@@ -1,4 +1,4 @@
-# ⚠️ Deprecated use [crowdin](crowdin.com/project/invitelogger)
+# ⚠️ Deprecated! Please use [crowdin](https://crowdin.com/project/invitelogger)
 
 
 
